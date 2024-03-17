@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   header:
     title: Welcome my Homepage!
     text: Make it better world
-    button: About me
+    button: This is me!
     buttonlink: "#services"
 
   services:
@@ -147,15 +147,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/jeongju-park-4432a22bb/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/Jeongjjju
         icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/xuzu_59/
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
