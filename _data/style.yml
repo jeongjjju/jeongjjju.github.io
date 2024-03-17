@@ -22,7 +22,7 @@ fonts:
     for: "heading"
   - name: "Kaushan Script"
     for: "script"
-  - name: "Droid Serif"
+  - name: "Montserrat"
     for: "serif"
   - name: "Roboto Slab"
     for: "body"

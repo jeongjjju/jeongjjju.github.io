@@ -12,9 +12,9 @@
 en: &DEFAULT_EN
   nav:
     - title: "About me"
-      section: About me
+      section: services
     - title: "Projects"
-      section: projects
+      section: portfolio
     - title: "About"
       section: about
     - title: "Timeline"
@@ -23,7 +23,7 @@ en: &DEFAULT_EN
       section: team
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
+    - title: "Google Scholar"
       url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
