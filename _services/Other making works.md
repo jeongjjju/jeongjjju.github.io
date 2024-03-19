@@ -1,14 +1,19 @@
 ---
-title: Finger language Translator Project
-subtitle: for connection equality
+title: Other making works
+subtitle: for art
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
-  title: iDEAFree </br> (Finger language Translator Project)
-  subtitle: for connection equality
+  title: Other making works
+  subtitle: for art
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
+Here are some works that I participated in as a team member.
+
+[MoMA - Grass Pen](https://store.moma.org/en-kr/products/desktop-pen-garden)
+
+[Seulwa](https://www.wadiz.kr/web/campaign/detail/183327)
 
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 

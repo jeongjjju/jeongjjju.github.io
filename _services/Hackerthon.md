@@ -1,12 +1,12 @@
 ---
-title: Finger language Translator Project
-subtitle: for connection equality
+title: Hackerthon
+subtitle: for healty life style
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
-  title: iDEAFree </br> (Finger language Translator Project)
-  subtitle: for connection equality
+  title: Hackerthon
+  subtitle: for healty life style
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
 
