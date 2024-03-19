@@ -1,12 +1,13 @@
 ---
-title: Hackerthon
+title: Preventing text neck by using webcam
 subtitle: for healty life style
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
+image: assets/img/portfolio/Hackerthon/text_neck.png
 alt: Keep Exploring
 
 caption:
-  title: Hackerthon </br> (Preventing text neck by using webcam)
+  title: Hackerthon
   subtitle: for healty life style
+  thumbnail: assets/img/portfolio/Hackerthon/text_neck.png
 ---
 
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!

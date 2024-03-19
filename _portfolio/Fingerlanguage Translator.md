@@ -1,12 +1,12 @@
 ---
 title: Finger language Translator Project
-subtitle: for connection equality
+subtitle: for communication rights equality
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
-  title: iDEAFree </br> (Finger language Translator Project)
-  subtitle: for connection equality
+  title: iDEAFree
+  subtitle: for communication rights equality
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
 
