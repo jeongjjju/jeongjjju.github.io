@@ -24,6 +24,6 @@ en: &DEFAULT_EN
     - title: "Contact"
       section: contact
     - title: "Google Scholar"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+      url: https://scholar.google.com/citations?user=JmRPuDcAAAAJ&hl=ko
 en-US:
   <<: *DEFAULT_EN
