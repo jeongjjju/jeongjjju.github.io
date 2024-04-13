@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: Welcome my Homepage!
     text: Make it better world
     button: This is me!
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   services:
     title: "Jeongju Park"
@@ -131,7 +131,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "If you have any questions about me, just contact me :)"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
