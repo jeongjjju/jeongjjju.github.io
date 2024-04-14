@@ -9,7 +9,17 @@
       </div>
     </div>
     <div class="row">
-	{% for project in site.portfolio %}
+    {% assign sorted_projects = site.portfolio | sort: 'subtitle' %}
+    {% assign previous_subtitle = nil %}
+    {% for project in sorted_projects %}
+      {% if project.subtitle != previous_subtitle %}
+        {% if forloop.first != true %}
+          <div class="col-12">
+            <hr class="my-5"> <!-- This adds a horizontal rule -->
+          </div>
+        {% endif %}
+        {% assign previous_subtitle = project.subtitle %}
+      {% endif %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
@@ -24,7 +34,7 @@
           <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
       </div>
-	{% endfor %}
+    {% endfor %}
     </div>
   </div>
 </section>
@@ -38,7 +48,17 @@
       </div>
     </div>
     <div class="row">
-	{% for project in site.portfolio %}
+    {% assign sorted_projects = site.portfolio | sort: 'subtitle' %}
+    {% assign previous_subtitle = nil %}
+    {% for project in sorted_projects %}
+      {% if project.subtitle != previous_subtitle %}
+        {% if forloop.first != true %}
+          <div class="col-12">
+            <hr class="my-5"> <!-- This adds a horizontal rule -->
+          </div>
+        {% endif %}
+        {% assign previous_subtitle = project.subtitle %}
+      {% endif %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
@@ -53,7 +73,7 @@
           <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
       </div>
-	{% endfor %}
+    {% endfor %}
     </div>
   </div>
 </section>

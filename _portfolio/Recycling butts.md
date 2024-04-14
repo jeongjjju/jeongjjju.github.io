@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Recycling device Project
-  subtitle: for the environment
+  subtitle: others
   thumbnail: assets/img/portfolio/Recycle/IMG_7524.PNG
   
 #what displays when the item is clicked:
 title: Recycling device
-subtitle: for the enviroment
+subtitle: others
 image: assets/img/portfolio/Recycle/IMG_7528.PNG
 alt: 이미지 알트 텍스트?
 

@@ -1,12 +1,12 @@
 ---
 title: Barrier-free map Project
-subtitle: for mobility rights equality
+subtitle: others
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
   title: Barrier-free map Project
-  subtitle: for mobility rights equality
+  subtitle: others
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
 
@@ -14,6 +14,5 @@ Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur 
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+- Date: January 2020
+- Category: Social Project

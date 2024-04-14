@@ -1,12 +1,12 @@
 ---
 title: Other making works
-subtitle: for art
+subtitle: others
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
   title: Other making works
-  subtitle: for art
+  subtitle: others
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
 Here are some works that I participated in as a team member.

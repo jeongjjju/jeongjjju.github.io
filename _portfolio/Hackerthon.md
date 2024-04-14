@@ -1,12 +1,12 @@
 ---
 title: Preventing text neck by using webcam
-subtitle: for healty life style
+subtitle: others
 image: assets/img/portfolio/Hackerthon/text_neck.png
 alt: Keep Exploring
 
 caption:
   title: Hackerthon
-  subtitle: for healty life style
+  subtitle: others
   thumbnail: assets/img/portfolio/Hackerthon/text_neck.png
 ---
 

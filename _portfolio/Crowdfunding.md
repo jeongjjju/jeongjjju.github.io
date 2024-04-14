@@ -1,12 +1,12 @@
 ---
 title: Crowdfunding Project
-subtitle: for mental rest
+subtitle: others
 image: assets/img/portfolio/Crowdfunding/20200813_134609.jpeg
 alt: Shirts on a hanger
 
 caption:
   title: Crowdfunding Project
-  subtitle: for mental rest
+  subtitle: others
   thumbnail: assets/img/portfolio/Crowdfunding/20200813_134609.jpeg
 ---
 
