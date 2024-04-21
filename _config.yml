@@ -18,11 +18,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Jeongju's Homepage
 email      : jeongjupark@gm.gist.ac.kr
-description: "귀여운 석사생"
+description: "Master's student"
 author     : Jeongju Park
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+#logo:     #optional, defaults to site title
+  #path: assets\img\clients\creative-market.jpg
+  #height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 

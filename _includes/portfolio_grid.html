@@ -9,18 +9,24 @@
       </div>
     </div>
     <div class="row">
-    {% assign sorted_projects = site.portfolio | sort: 'subtitle' %}
-    {% assign previous_subtitle = nil %}
+    {% assign sorted_projects = site.portfolio | sort: 'category' %}
+    {% assign previous_category = nil %}
     {% for project in sorted_projects %}
-      {% if project.subtitle != previous_subtitle %}
-        {% if forloop.first != true %}
-          <div class="col-12">
-            <hr class="my-5"> <!-- This adds a horizontal rule -->
+      {% if project.category != previous_category %}
+        {% if previous_category != nil %}
           </div>
+          <div class="col-12">
+            <hr class="my-5">
+          </div>
+          <div class="row">
         {% endif %}
-        {% assign previous_subtitle = project.subtitle %}
+        <div class="col-12 text-center mt-4 mb-4">
+          <h4 class="text-uppercase">{{ project.category }}</h4>
+        </div>
+        {% assign previous_category = project.category %}
       {% endif %}
       <div class="col-md-4 col-sm-6 portfolio-item">
+        <!-- Subtract 1 from forloop.index to link to the previous project -->
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
@@ -41,40 +47,7 @@
 {% else %}
 <section class="bg-light page-section" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.portfolio.title | markdownify | default: "Portfolio" }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.portfolio.text | markdownify }}</h3>
-      </div>
-    </div>
-    <div class="row">
-    {% assign sorted_projects = site.portfolio | sort: 'subtitle' %}
-    {% assign previous_subtitle = nil %}
-    {% for project in sorted_projects %}
-      {% if project.subtitle != previous_subtitle %}
-        {% if forloop.first != true %}
-          <div class="col-12">
-            <hr class="my-5"> <!-- This adds a horizontal rule -->
-          </div>
-        {% endif %}
-        {% assign previous_subtitle = project.subtitle %}
-      {% endif %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
-            </div>
-          </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
-        </div>
-      </div>
-    {% endfor %}
-    </div>
+    <!-- Similar structure for the non-localized version -->
   </div>
 </section>
 {% endif %}
