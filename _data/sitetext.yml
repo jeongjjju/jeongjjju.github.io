@@ -81,14 +81,14 @@ en: &DEFAULT_EN
         alt: image alt text
         # you can enforce the alignment
         align: left
-        
+
       - title: "Maker space staff & teacher"
         year: "2020-2023"
         desc: "|
         Worked as a professional equipment management and instructor at [Madumaru](http://mandulmaru.net)<br><br>
-        - Staff activities<br>
+        - **Staff activities**<br>
         (managing professional equipment such as CNC, 3D printers, Laser cutter, etc.)<br>
-        - Teaching activities<br>
+        - **Teaching activities**<br>
         (Arduino, 3D printers, laser cutter)"
         image: assets/img/timeline/mandulmaru.jpg
         alt:

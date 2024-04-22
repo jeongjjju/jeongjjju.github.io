@@ -70,6 +70,14 @@
   }
 }
 
+.award-icon {
+  position: absolute;
+  top: 10px;  /* 상단에서의 위치 조정 */
+  left: 10px; /* 좌측에서의 위치 조정 */
+  width: 20px; /* 아이콘의 크기 */
+  height: 20px; /* 아이콘의 크기 */
+}
+
 .portfolio-modal {
   .modal-dialog {
     margin: 1rem;

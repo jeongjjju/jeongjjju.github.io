@@ -34,6 +34,11 @@
             </div>
           </div>
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+          {% if project.award %}
+            <div class="award-icon">
+              <img src="assets/img/clients/prize1.png" alt="Award">
+            </div>
+          {% endif %}
         </a>
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>
