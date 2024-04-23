@@ -27,7 +27,7 @@ author     : Jeongju Park
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: G-PE0FZRZVZ8 #Google Analytics tracking code here
 
 collections:
   portfolio:
