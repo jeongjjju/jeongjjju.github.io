@@ -15,6 +15,7 @@ fonts_urls:
     - "https://fonts.googleapis.com/css?family=Kaushan+Script"
     - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
     - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+    - "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
 
 # Set custom fonts
 fonts:

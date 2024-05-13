@@ -21,7 +21,7 @@
           <div class="row">
         {% endif %}
         <div class="col-12 text-center mt-4 mb-4">
-          <h4 class="text-uppercase">{{ project.category }}</h4>
+          <h4 class="text-uppercase">{{ project.category | slice: 1,project.category.size  }}</h4>
         </div>
         {% assign previous_category = project.category %}
       {% endif %}
@@ -36,13 +36,18 @@
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
           {% if project.award %}
             <div class="award-icon">
-              <img src="assets/img/clients/prize1.png" alt="Award">
+              <img src="assets/img/clients/star-medal.png" alt="Award">
             </div>
           {% endif %}
         </a>
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>
+          {% if project.caption.authors %}
+            <p class="text-muted author-info">{{ project.caption.authors }}</p>
+            <hr> <!-- 수평선 추가 -->
+          {% endif %}
           <p class="text-muted">{{ project.caption.subtitle }}</p>
+          <p class="text-muted prizes-info">{{ project.caption.prizes }}</p>
         </div>
       </div>
     {% endfor %}

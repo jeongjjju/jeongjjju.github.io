@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome my Homepage!
-    text: Make it better world
+    title: Welcome to my Homepage!
+    text: Make it a better world
     button: This is me!
     buttonlink: "#about"
 
@@ -20,9 +20,9 @@ en: &DEFAULT_EN
     title: "About Me"
     text: ""
     body: "
-    Hey, What's up!<br/>I am Jeongju Park, a master's student at [**HCIS Lab**](https://sites.google.com/view/gist-hcis-lab) in [**GIST**](https://www.gist.ac.kr/en/main.html).<br/><br/>
+    Hey, What's up!<br/>I am Jeongju Park, a master's student at [HCIS Lab](https://sites.google.com/view/gist-hcis-lab) in [GIST](https://www.gist.ac.kr/en/main.html).<br/><br/>
     My main areas of interest in Human-Computer Interaction(HCI) research, specifically **tangible interfaces** and **haptics**.<br/>
-    If you want detailed information about me, just click on my [**CV**](/assets/pdf/aboutme/cv.pdf),<br/> and if you have any questions about me or the projects I have worked on,
+    If you want detailed information about me, just click on my [CV](/assets/pdf/aboutme/cv.pdf),<br/> and if you have any questions about me or the projects I have worked on,
      feel free to contact me anytime through **Contact Section!**
      "
     section: about
@@ -33,13 +33,13 @@ en: &DEFAULT_EN
      - Modeling & Desing tools: Autodesk Inventor, Fusion360, Solidworks, Adobe(Illustrator, Photoshop, PremierePro), Final Cut Pro<br/>
      - Software: Unity, Python
      <br/><br/><br/><br/>
-     
+    
      <h4>Award & Honors</h4><br>
-     - Outstanding Student Paper Award at the 2022 Summer General Academic Conference, The Institute of Electronics and Information Engineers, Korea (Jul. 2022)<br>
+     - Outstanding Student Paper Award at the 2022 Summer Annual Conference, The Institute of Electronics and Information Engineers, Korea (Jul. 2022)<br>
      - 2021 Capstone Design Industry-Academic Cooperation Competition, Convergence and Open Sharing System, Korea (Dec. 2021)<br>
-     - The 2nd Oasis Hackathon, Oasis Hackathon Business Team, Korea (Aug. 2021)<br>
+     - Oasis Hackathon Special Award, Oasis Hackathon Business Team, Korea (Aug. 2021)<br>
      - The 18th 2020 Chonnam National University Startup Item Competition, Chonnam National University, Korea (Dec. 2020)<br>
-     - 2020 mock crowdfunding competition, Chonnam National University Start-Up Education Center, Korea (Aug. 2020)<br>
+     - 2020 Mock Crowdfunding Competition, Chonnam National University Start-Up Education Center, Korea (Aug. 2020)<br>
      - 2020 Crowdfunding Linked Commercialization Competition, Chonnam National University Start-Up Education Center, Korea (Jun. 2020)<br>
      - 2020 Student Start-up Promising Team 300 Selection, The Ministry of Education, Korea (Aug. 2020)<br>
      - The 4th 2020 Creative Idea Contest, Chonnam National University Madulmaru Project Group, Korea (Feb. 2020)<br>
@@ -61,8 +61,8 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "Projects"
-    text: "Here are the projects I've been working on!"
+    title: "Publications & Projects"
+    text:
     section: portfolio
     closebutton: "Close Project"
 
@@ -74,9 +74,14 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Gwangju Institute of Science and Technology"
-        year: "2024-Present"
-        desc: "|<br>
-        - **Master of Science (M.S.)** Intelligent Robotics, Institute of Integrated Technology"
+        year: "2023-Present"
+        desc: "|
+        - **Master of Science (M.S.)**<br>Intelligent Robotics, Institute of Integrated Technology<br>
+        - Reserch Intern & M.S at [HCIS LAB](https://sites.google.com/view/gist-hcis-lab) (Human-Centered Intelligent Systems)
+        <br>M.S : Feb 2024 - Present
+        <br>Intern : Sep 2023 - Feb 2024
+
+        "
         image: assets/img/timeline/GIST.jpg
         alt: image alt text
         # you can enforce the alignment
@@ -85,18 +90,18 @@ en: &DEFAULT_EN
       - title: "Maker space staff & teacher"
         year: "2020-2023"
         desc: "|
-        Worked as a professional equipment management and instructor at [Madumaru](http://mandulmaru.net)<br><br>
-        - **Staff activities**<br>
-        (managing professional equipment such as CNC, 3D printers, Laser cutter, etc.)<br>
-        - **Teaching activities**<br>
-        (Arduino, 3D printers, laser cutter)"
+        Worked as a professional equipment managemer and teacher at [Madumaru](http://mandulmaru.net)<br><br>
+        - **Managing**<br>
+          (managing CNC, 3D Printer, Laser cutter, etc.)<br>
+        - **Teaching**<br>
+          (Arduino, 3D Printer, laser cutter)"
         image: assets/img/timeline/mandulmaru.jpg
         alt:
 
       - title: "Chonnam National University"
         year: "2017-2023"
-        desc: "|<br>
-        - **Bachelor of Science (B.S.)** Department of Electronics & Computer Engineering<br>(TGPA 4.08, Major GPA 4.1)<br>
+        desc: "|
+        - **Bachelor of Science (B.S.)** <br>Department of Electronics & Computer Engineering<br>(TGPA 4.08, Major GPA 4.1)<br>
         - Reserch assistant student at [VIPS LAB](https://jnuvipslab.wixsite.com/vips)<br>(Visual Information Processing & System)"
 
         image: assets/img/timeline/chonnam.svg

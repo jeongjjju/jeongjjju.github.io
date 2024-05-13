@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "About me"
       section: about
-    - title: "Projects"
+    - title: "Publications & Projects"
       section: portfolio
     - title: "Experience"
       section: timeline
