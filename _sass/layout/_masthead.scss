@@ -2,12 +2,24 @@
 header.masthead {
   text-align: center;
   color: white;
+  position: relative;
+  overflow: hidden;
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   background-blend-mode: grayscale;
+  &::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); // 어두운 회색빛 필터 색상 및 투명도 설정
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; // 필터 높이를 100%로 설정
+    z-index: 0;
+  }
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -27,17 +39,6 @@ header.masthead {
       margin-bottom: 25px;
       @include heading-font;
     }
-  }
-  &::before {
-    content: "";
-    background: rgba(0, 0, 0, 0.5); // 회색빛 필터 색상 및 투명도 설정
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 114%;
-    z-index: 0;
-  }
 }
 
 @media (min-width: 768px) {
