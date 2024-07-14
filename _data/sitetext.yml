@@ -87,10 +87,10 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: left
 
-      - title: "Maker Space <br>Staff & Teacher"
+      - title: "Maker Space <br>Staff & Instructor"
         year: "2020-2023"
         desc: "|
-        Worked as a professional equipment managemer and teacher at [Madumaru](http://mandulmaru.net)<br><br>
+        Worked as a professional equipment managemer and instructor at [Madumaru](http://mandulmaru.net)<br><br>
         - **Managing**<br>
           (managing CNC, 3D Printer, Laser cutter, etc.)<br>
         - **Teaching**<br>
