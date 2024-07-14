@@ -23,7 +23,7 @@ en: &DEFAULT_EN
     Hey, What's up!<br/>I am Jeongju Park, a master's student at [HCIS Lab](https://sites.google.com/view/gist-hcis-lab) in [GIST](https://www.gist.ac.kr/en/main.html).<br/><br/>
     My main areas of interest in Human-Computer Interaction(HCI) research, specifically **Haptics** and **Virtual Reality**.<br/>
     If you want detailed information about me, just click on my [CV](/assets/pdf/Aboutme/cv.pdf),<br/> and if you have any questions about me or the projects I have worked on,
-    feel free to contact me anytime through <a class='js-scroll-trigger' href='#contact'>**Contact Section!**</a>
+    feel free to contact me anytime through <a class='js-scroll-trigger' href='#contact'>Contact Section!</a>
      "
     section: about
   
