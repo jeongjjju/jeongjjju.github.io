@@ -7,15 +7,18 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  background-blend-mode: grayscale;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
+    position: relative; // 텍스트를 이미지 위에 올리기 위해 상대적 위치 사용
+    z-index: 1; // 텍스트를 이미지 위에 표시하기 위해 z-index 설정
     .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
+      //font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      @include serif-font;
+      @include heading-font;
     }
     .intro-heading {
       font-size: 50px;
@@ -25,7 +28,18 @@ header.masthead {
       @include heading-font;
     }
   }
+  &::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5); // 회색빛 필터 색상 및 투명도 설정
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 114%;
+    z-index: 0;
+  }
 }
+
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
@@ -33,13 +47,13 @@ header.masthead {
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
-        font-style: italic;
+        //font-style: italic;
         line-height: 40px;
         margin-bottom: 25px;
-        @include serif-font;
+        @include heading-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;

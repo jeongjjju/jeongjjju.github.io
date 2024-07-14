@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to my Homepage!
-    text: Make it a better world
-    button: This is me!
+    title: Making the World a More Fun,<br/> and Better Place for Everyone!
+    text: Want to Join Me?
+    button: Let's Go!
     buttonlink: "#about"
 
   about:
@@ -21,9 +21,9 @@ en: &DEFAULT_EN
     text: ""
     body: "
     Hey, What's up!<br/>I am Jeongju Park, a master's student at [HCIS Lab](https://sites.google.com/view/gist-hcis-lab) in [GIST](https://www.gist.ac.kr/en/main.html).<br/><br/>
-    My main areas of interest in Human-Computer Interaction(HCI) research, specifically **tangible interfaces** and **haptics**.<br/>
+    My main areas of interest in Human-Computer Interaction(HCI) research, specifically **Haptics** and **Virtual Reality**.<br/>
     If you want detailed information about me, just click on my [CV](/assets/pdf/aboutme/cv.pdf),<br/> and if you have any questions about me or the projects I have worked on,
-     feel free to contact me anytime through **Contact Section!**
+    feel free to contact me anytime through <a class='js-scroll-trigger' href='#contact'>**Contact Section!**</a>
      "
     section: about
   
@@ -94,7 +94,7 @@ en: &DEFAULT_EN
         - **Managing**<br>
           (managing CNC, 3D Printer, Laser cutter, etc.)<br>
         - **Teaching**<br>
-          (Arduino, 3D Printer, laser cutter)"
+          (Arduino, 3D Printer, Laser Cutter)"
         image: assets/img/timeline/mandulmaru.jpg
         alt:
 
