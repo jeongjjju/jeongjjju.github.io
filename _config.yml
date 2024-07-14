@@ -21,7 +21,7 @@ email      : jeongjupark@gm.gist.ac.kr
 description: "Master's student"
 author     : Jeongju Park
 #logo:     #optional, defaults to site title
-  #path: assets\img\clients\creative-market.jpg
+  #path: assets\img\clients\star-medal.png
   #height: 60 #height in px, defaults to 52pxa
 
 locale: "en-US" # See available languages in _data/sitetext.yml
