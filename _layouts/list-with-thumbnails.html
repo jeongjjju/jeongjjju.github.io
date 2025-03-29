@@ -1,0 +1,63 @@
+﻿---
+layout: page
+---
+
+<main class="content" style="max-width: 1000px; margin: 0 auto; padding-top: 0.5rem;">
+  <style>
+    .post-preview {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+      align-items: flex-start;
+    }
+
+    @media (max-width: 768px) {
+      .post-preview {
+        flex-direction: column;
+      }
+
+      .post-preview img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+
+  <div class="post-list" style="margin-top: 1rem;">
+    {% assign posts = site.posts %}
+    {% for post in posts %}
+      <div class="post-preview">
+        {% if post.image and post.image.path %}
+          <img src="{{ post.image.path }}" alt="Thumbnail for {{ post.title }}" style="width: 280px; height: 160px; object-fit: cover; flex-shrink: 0; border-radius: 6px;">
+        {% endif %}
+        <div style="flex: 1; min-width: 0;">
+          <h3 style="margin: 0 0 0.25rem 0; font-size: 1.1rem; line-height: 1.4;">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+
+          {% capture authors_line %}{% endcapture %}
+          {% capture conf_line %}{% endcapture %}
+          {% assign lines = post.content | split: '\n' %}
+          {% for line in lines %}
+            {% if line contains "**Authors**" %}
+              {% assign authors_line = line | remove: "**Authors**:" | strip %}
+            {% endif %}
+            {% if line contains "**Conference**" %}
+              {% assign conf_line = line | remove: "**Conference**:" | strip %}
+            {% endif %}
+          {% endfor %}
+
+          <p class="post-meta" style="margin: 0.5rem 0 0; color: #aaa; font-size: 0.9rem;">
+            {{ post.authors }}<br>
+            {{ post.conference }}<br>
+            {% if post.award %}
+              {% for a in post.award %}
+                🏆 {{ a }}<br>
+              {% endfor %}
+            {% endif %}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</main>
