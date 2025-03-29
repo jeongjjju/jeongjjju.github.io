@@ -1,5 +1,7 @@
-<!-- Add HTML tags here to be included in the head. You can delete the below: -->
+<!-- Preload gumroad resources -->
 <link rel="dns-prefetch" href="https://assets.gumroad.com">
+
+<!-- Gumroad loading and observer -->
 <script type="module">
   const loadJS = x => new Promise(r => window.loadJS(x).addEventListener('load', r));
 
@@ -39,5 +41,41 @@
 
     document.querySelectorAll('.gumroad-product-embed').forEach(el => io1.observe(el));
     document.querySelectorAll('.gumroad-button').forEach(el => io2.observe(el));
+  });
+</script>
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXX'); // ⬅️ 여기에 너의 GA4 ID 넣기
+</script>
+
+<!-- Scroll Pause Tracking -->
+<script>
+  let scrollTimer;
+  let scrollStopTime = Date.now();
+
+  window.addEventListener('scroll', function () {
+    clearTimeout(scrollTimer);
+
+    scrollTimer = setTimeout(() => {
+      const pausedDuration = (Date.now() - scrollStopTime) / 1000;
+      const viewportHeight = window.innerHeight;
+      const scrollTop = window.scrollY;
+      const screenSection = Math.floor((scrollTop + viewportHeight / 2) / viewportHeight);
+
+      if (pausedDuration >= 3) {
+        gtag('event', 'scroll_pause', {
+          'section': screenSection,
+          'paused_seconds': pausedDuration,
+          'page_path': window.location.pathname
+        });
+      }
+
+      scrollStopTime = Date.now();
+    }, 100);
   });
 </script>
