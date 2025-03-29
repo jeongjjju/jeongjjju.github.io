@@ -182,7 +182,7 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:      	G-PE0FZRZVZ8
+google_analytics:      G-PE0FZRZVZ8
 
 
 # Setting a tinyletter username will enable the newsletter subscription box.
