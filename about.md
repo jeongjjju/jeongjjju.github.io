@@ -109,7 +109,7 @@ img[src*="/assets/img/me.jpeg"] {
 
 {:toc}
 
-### ![GIST](/assets/img/GIST.jpg){:style="height:1.5em; vertical-align:middle;"} Gwangju Institute of Science and Technology
+### ![GIST](/assets/img/GIST.png){:style="height:1.5em; vertical-align:middle;"} Gwangju Institute of Science and Technology
 **2023 – Present**  
 - **Master of Science (M.S.)**  
   Intelligent Robotics, Institute of Integrated Technology  
