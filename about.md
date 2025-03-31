@@ -144,3 +144,13 @@ Worked as a professional equipment manager and instructor at [Madulmaru](http://
 - **Adobe Suite**: Illustrator, Photoshop, Premiere Pro  
 - **Video Editing**: Final Cut Pro  
 - **Software**: Unity, Python  
+
+
+<style>
+#_toc {
+  position: sticky !important;
+  top: 100px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+</style>
