@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hey, What's up!<br/>I am Jeongju Park, a master's student at [HCIS Lab](https://sites.google.com/view/gist-hcis-lab) in [GIST](https://www.gist.ac.kr/en/main.html).<br/><br/>
+    Hello!<br/>I am Jeongju Park, a master's student at [HCIS Lab](https://sites.google.com/view/gist-hcis-lab) in [GIST](https://www.gist.ac.kr/en/main.html).<br/><br/>
     My main areas of interest in Human-Computer Interaction(HCI) research, specifically **Haptics** and **Virtual Reality**.
     If you want detailed information about me, just click on my [CV](/assets/cv.pdf), and if you have any questions about me or the projects <br> I have worked on,
     feel free to contact me anytime via email at <a href="mailto:jeongjupark@gm.gist.ac.kr">jeongjupark@gm.gist.ac.kr</a>.
