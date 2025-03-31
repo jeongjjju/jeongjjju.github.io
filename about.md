@@ -148,3 +148,15 @@ Worked as a professional equipment manager and instructor at [Madulmaru](http://
 - **Adobe Suite**: Illustrator, Photoshop, Premiere Pro  
 - **Video Editing**: Final Cut Pro  
 - **Software**: Unity, Python  
+
+
+<style>
+/* Make the TOC sticky */
+#_toc {
+  position: sticky;
+  top: 100px; /* 원하는 위치에 따라 조절 가능 */
+  max-height: calc(100vh - 120px); /* 스크롤 가능하도록 */
+  overflow-y: auto;
+  z-index: 2;
+}
+</style>
