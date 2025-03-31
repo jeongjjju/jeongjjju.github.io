@@ -43,6 +43,11 @@ img[src*="/assets/img/me.jpeg"] {
     flex-shrink: 0;
   }
 
+  .highlight-author {
+    font-weight: bold;
+    color: #ff6600;
+  }
+
   @media (max-width: 768px) {
     .selected-post-preview {
       flex-direction: column;
@@ -66,8 +71,9 @@ img[src*="/assets/img/me.jpeg"] {
         <h4 style="margin: 0 0 0.3rem 0;">
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h4>
+        {% assign formatted_authors = post.authors | replace: 'Park, J.', '<span class="highlight-author">Park, J.</span>' %}
         <p class="post-meta" style="color: #aaa; font-size: 0.9rem; margin: 0;">
-          {{ post.authors }}<br>
+          {{ formatted_authors }}<br>
           {{ post.conference }}
           {% if post.award %}
             <br>
@@ -80,6 +86,7 @@ img[src*="/assets/img/me.jpeg"] {
     </div>
   {% endfor %}
 </div>
+
 
 <p style="text-align: right; margin-top: -0.5rem;">
   <a href="/publication/" style="font-weight: bold; font-size: 0.95rem;">See more →</a>
