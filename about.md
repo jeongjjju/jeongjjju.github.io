@@ -119,7 +119,7 @@ img[src*="/assets/img/me.jpeg"] {
 
 ---
 
-### ![Madulmaru](/assets/img/mandulmaru.jpg){:style="height:1.5em; vertical-align:middle;"} Maker Space – Staff & Instructor
+### ![Madulmaru](/assets/img/mandulmaru.png){:style="height:1.5em; vertical-align:middle;"} Maker Space – Staff & Instructor
 **2020 – 2023**  
 Worked as a professional equipment manager and instructor at [Madulmaru](http://mandulmaru.net)  
 - **Managing**  
