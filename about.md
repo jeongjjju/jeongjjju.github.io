@@ -90,6 +90,8 @@ img[src*="/assets/img/me.jpeg"] {
 ## Award & Honors
 {:.lead}
 
+1. this list will be replaced by the toc  
+{:toc .large-only}
 
 - **Outstanding Student Paper Award at the 2022 Summer Annual Conference**, The Institute of Electronics and Information Engineers, Korea (Jul. 2022)  
 - **2021 Capstone Design Industry-Academic Cooperation Competition**, Convergence and Open Sharing System, Korea (Dec. 2021)  
@@ -105,6 +107,7 @@ img[src*="/assets/img/me.jpeg"] {
 ## Experience
 {:.lead}
 
+{:toc}
 
 ### ![GIST](/assets/img/GIST.png){:style="height:1.5em; vertical-align:middle;"} Gwangju Institute of Science and Technology
 **2023 – Present**  
@@ -139,18 +142,9 @@ Worked as a professional equipment manager and instructor at [Madulmaru](http://
 ## Technical Skills
 {:.lead}
 
+{:toc}
 
 - **Modeling & Design Tools**: Autodesk Inventor, Fusion 360, SolidWorks, Blender  
 - **Adobe Suite**: Illustrator, Photoshop, Premiere Pro  
 - **Video Editing**: Final Cut Pro  
 - **Software**: Unity, Python  
-
-
-<style>
-#_toc {
-  position: sticky !important;
-  top: 100px;
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
-}
-</style>
