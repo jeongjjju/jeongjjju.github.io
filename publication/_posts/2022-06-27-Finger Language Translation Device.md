@@ -12,7 +12,7 @@ image:
 accent_image: /assets/img/FingerLanguage_Translator/FingerTranslator.jpeg
 excerpt_separator: <!--more-->
 sitemap: true
-authors: Kim, J., <span class="highlight-author">Park, J.</span>, Jeong, J., and Kim, D.
+authors: Kim, J., <strong>Park, J.</strong>, Jeong, J., and Kim, D.
 conference: "<strong><em>2022 IEIE Summer Annual Conference</em></strong>: <em> The Institute of Electronics and Information Engineers, Korea</em>"
 award:
   - Outstanding Student Paper Award
@@ -21,16 +21,9 @@ award:
 
 <!--more-->
 
-<style>
-  .highlight-author {
-    font-weight: bold;
-    color: #ff6600; /* 원하면 다른 색으로 바꿔도 됨 */
-  }
-</style>
-
 ## Finger Language Translation Device
 
-**Authors**: Kim, J., <span class="highlight-author">Park, J.</span>, Jeong, J., and Kim, D.  
+**Authors**: Kim, J., <strong>Park, J.</strong>, Jeong, J., and Kim, D.  
 **Conference**: 2022 Summer Annual Conference of the Institute of Electronics and Information Engineers (IEIE), Korea  
 **Awards**: 🏆 Outstanding Student Paper Award 🏆 Capstone Design Industry-Academic Cooperation Competition Award
 
