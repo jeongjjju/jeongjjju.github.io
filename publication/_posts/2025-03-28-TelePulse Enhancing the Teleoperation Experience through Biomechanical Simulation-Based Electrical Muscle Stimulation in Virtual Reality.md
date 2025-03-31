@@ -4,7 +4,7 @@ title: TelePulse Enhancing the Teleoperation Experience through Biomechanical Si
 description: >
   CHI ’25
 image:
-  path: /assets/img/Telepulse/telepulse_teaser.png
+  path: /assets/img/Telepulse/media.gif
   srcset:
     1920w: /assets/img/Telepulse/telepulse_teaser.png
     960w: /assets/img/Telepulse/telepulse_teaser.png
@@ -12,7 +12,7 @@ image:
 accent_image: /assets/img/Telepulse/telepulse_teaser.png
 excerpt_separator: <!--more-->
 sitemap: true
-authors: Hwang, S., Kang, S., Oh, J., <strong>Park, J.</strong>, Shin, S., Luo, Y., DelPreto, J., Matusik, W., Rus, D., and Kim, S.
+authors: Hwang, S.*, Kang, S.*, Oh, J.*, <strong>Park, J.</strong>, Shin, S., Luo, Y., DelPreto, J., Matusik, W., Rus, D., and Kim, S.
 conference: "<strong><em>CHI ’25</em></strong>: <em>ACM Conference on Human Factors in Computing Systems</em>"
 award:
   - Best Paper (Top 1%)

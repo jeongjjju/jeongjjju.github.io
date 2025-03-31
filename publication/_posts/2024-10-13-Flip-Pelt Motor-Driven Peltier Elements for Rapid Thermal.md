@@ -4,7 +4,7 @@ title: Flip-Pelt Motor-Driven Peltier Elements for Rapid Thermal Stimulation and
 description: >
   UIST ’24
 image:
-  path: /assets/img/FlipPelt/FlipPeltUIST.png
+  path: /assets/img/FlipPelt/media (1).gif
   srcset:
     1920w: /assets/img/FlipPelt/FlipPeltUIST.png
     960w: /assets/img/FlipPelt/FlipPeltUIST.png

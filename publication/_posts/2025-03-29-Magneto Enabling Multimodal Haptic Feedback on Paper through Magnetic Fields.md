@@ -4,7 +4,7 @@ title: Magneto Enabling Multimodal Haptic Feedback on Paper through Magnetic Fie
 description: >
   CHI EA ’25
 image:
-  path: /assets/img/Magneto/Magneto.png
+  path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
   srcset:
     1920w: /assets/img/Magneto/Magneto.png
     960w: /assets/img/Magneto/Magneto.png
