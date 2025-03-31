@@ -263,5 +263,5 @@ mastodon:
   icon: icon-mastodon
 google-scholar:
   name: Google Scholar
-  icon: /assets/img/icons/scholar.png
+  icon: icon-google
   prepend: "https://scholar.google.com/citations?user="
