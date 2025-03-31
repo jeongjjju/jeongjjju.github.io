@@ -151,12 +151,24 @@ Worked as a professional equipment manager and instructor at [Madulmaru](http://
 
 
 <style>
-/* Make the TOC sticky */
+/* TOC를 sticky로 */
 #_toc {
-  position: sticky;
-  top: 100px; /* 원하는 위치에 따라 조절 가능 */
-  max-height: calc(100vh - 120px); /* 스크롤 가능하도록 */
-  overflow-y: auto;
-  z-index: 2;
+  position: sticky !important;
+  top: 120px !important;
+  z-index: 99 !important;
+  max-height: calc(100vh - 150px) !important;
+  overflow-y: auto !important;
+  background-color: var(--body-bg, #fff);
+  padding: 0 1rem;
+}
+
+/* 상위 요소들의 제한 제거 */
+.page__content,
+.content-wrapper,
+.layout--page,
+.layout--wide,
+main {
+  overflow: visible !important;
+  position: relative !important;
 }
 </style>
