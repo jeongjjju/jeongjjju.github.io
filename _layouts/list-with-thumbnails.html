@@ -24,7 +24,7 @@ layout: page
 
     .highlight-author {
       font-weight: bold;
-      color: #ff6600; /* 원하면 색상 변경 가능 */
+      color: #ff6600; /* 이름 색상은 원하는 대로 변경 가능 */
     }
   </style>
 
@@ -40,8 +40,8 @@ layout: page
             <a href="{{ post.url }}">{{ post.title }}</a>
           </h3>
 
-          {% capture authors_line %}{% endcapture %}
-          {% capture conf_line %}{% endcapture %}
+          {% assign authors_line = "" %}
+          {% assign conf_line = "" %}
           {% assign lines = post.content | split: '\n' %}
           {% for line in lines %}
             {% if line contains "**Authors**" %}
@@ -52,9 +52,16 @@ layout: page
             {% endif %}
           {% endfor %}
 
+          {% assign name_variants = "Park, J.|J. Park|Jeongju Park" | split: "|" %}
+          {% assign styled_name = "<span class='highlight-author'>Park, J.</span>" %}
+          {% assign styled_authors = authors_line %}
+          {% for n in name_variants %}
+            {% assign styled_authors = styled_authors | replace: n, styled_name %}
+          {% endfor %}
+
           <p class="post-meta" style="margin: 0.5rem 0 0; color: #aaa; font-size: 0.9rem;">
-            {{ post.authors | replace: "Jeongju Park", "<span class='highlight-author'>Jeongju Park</span>" }}<br>
-            {{ post.conference }}<br>
+            {{ styled_authors }}<br>
+            {{ conf_line }}<br>
             {% if post.award %}
               {% for a in post.award %}
                 🏆 {{ a }}<br>
