@@ -21,6 +21,11 @@ layout: page
         height: auto;
       }
     }
+
+    .highlight-author {
+      font-weight: bold;
+      color: #ff6600; /* 원하면 색상 변경 가능 */
+    }
   </style>
 
   <div class="post-list" style="margin-top: 1rem;">
@@ -48,7 +53,7 @@ layout: page
           {% endfor %}
 
           <p class="post-meta" style="margin: 0.5rem 0 0; color: #aaa; font-size: 0.9rem;">
-            {{ post.authors }}<br>
+            {{ post.authors | replace: "Jeongju Park", "<span class='highlight-author'>Jeongju Park</span>" }}<br>
             {{ post.conference }}<br>
             {% if post.award %}
               {% for a in post.award %}
