@@ -8,10 +8,12 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hello!<br/>I am Jeongju Park, a master's student at [HCIS Lab](https://sites.google.com/view/gist-hcis-lab) in [GIST](https://www.gist.ac.kr/en/main.html).<br/><br/>
-    My main areas of interest in Human-Computer Interaction(HCI) research, specifically **Haptics** and **Virtual Reality**.
-    If you want detailed information about me, just click on my [CV](/assets/cv.pdf), and if you have any questions about me or the projects <br> I have worked on,
-    feel free to contact me anytime via email at <a href="mailto:jeongjupark@gm.gist.ac.kr">jeongjupark@gm.gist.ac.kr</a>.
+    Hi there!<br/>
+    I'm Jeongju Park, a master’s student at the <a href="https://sites.google.com/view/gist-hcis-lab">HCIS Lab</a> at <a href="https://www.gist.ac.kr/en/main.html">GIST</a>.<br/><br/>
+    I’m interested in Human-Computer Interaction (HCI), especially in the areas of <b>Haptics</b> and <b>Virtual Reality</b>.<br/>
+    You can find more about me in my <a href="/assets/cv.pdf">CV</a>, and if you’re curious about my work or just want to chat, feel free to email me at <br/>
+    <a href="mailto:jeongjupark@gm.gist.ac.kr">jeongjupark@gm.gist.ac.kr</a>!
+
 
   # This photo will be used in the about section
   picture:
