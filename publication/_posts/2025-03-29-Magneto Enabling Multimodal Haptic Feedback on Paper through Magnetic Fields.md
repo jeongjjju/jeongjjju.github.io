@@ -6,9 +6,7 @@ description: >
 image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
   srcset:
-    1920w: /assets/img/Magneto/Magneto.png
-    960w: /assets/img/Magneto/Magneto.png
-    480w: /assets/img/Magneto/Magneto.png
+    0w: /assets/img/Magneto/Magneto.png
 accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
