@@ -5,11 +5,7 @@ description: >
   CHI EA ’25
 image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
-  #srcset:
-  #  1920w: /assets/img/Magneto/Magneto.png
-  #  960w: /assets/img/Magneto/Magneto.png
-  #  480w: /assets/img/Magneto/Magneto.png
-accent_image: /assets/img/Magneto/Magneto.png
+# accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
 authors: <strong>Park, J.</strong>, Shin, S., Kang, S., Kim, G., and Kim, S.
