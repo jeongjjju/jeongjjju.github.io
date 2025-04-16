@@ -5,6 +5,7 @@ description: >
   CHI EA ’25
 image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
+hide_image_on_post: true
 # accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true

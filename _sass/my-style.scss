@@ -12,3 +12,16 @@
     margin: 1rem 0;
   }
 }
+
+/* Magneto 포스트에서만 상단 이미지(GIF) 숨기기 */
+body[data-title*="Magneto Enabling Multimodal Haptic Feedback"] .post-cover {
+  display: none;
+}
+
+/* 전체 포스트에서 제목 너비 제한 */
+.post-header h1,
+.post-title,
+.page-title {
+  max-width: 800px;
+  margin: 0 auto;
+}
