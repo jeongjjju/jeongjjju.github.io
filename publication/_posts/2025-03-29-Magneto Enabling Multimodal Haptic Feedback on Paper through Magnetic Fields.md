@@ -62,7 +62,6 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
        style="max-width: 1000px; width: 100%; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
-I’m also presenting another project at CHI 2025 —  
-<a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/"><strong>Telepulse</strong></a>,  
+I’m also presenting another project at CHI 2025 — <a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/"><strong>Telepulse</strong></a>,  
 a wearable EMS-based system that provides force feedback during teleoperation in VR.  
-🏆 This work was recognized with a <strong>Best Paper Award (Top 1%)</strong>.
+This work was recognized with a 🏆 <strong>Best Paper Award (Top 1%)</strong>.
