@@ -7,7 +7,7 @@ image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
   srcset:
     0w: /assets/img/Magneto/Magneto.png
-#accent_image: /assets/img/Magneto/Magneto.png
+accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
 authors: <strong>Park, J.</strong>, Shin, S., Kang, S., Kim, G., and Kim, S.
