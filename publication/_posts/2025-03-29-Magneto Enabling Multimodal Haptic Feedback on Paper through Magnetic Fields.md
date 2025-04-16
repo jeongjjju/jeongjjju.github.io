@@ -24,7 +24,7 @@ conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of t
 </div>
 
 **Title**: Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields  
-**Authors**: Park, J., Shin, S., Kang, S., Kim, G., and Kim, S.  
+**Authors**: **Park, J.**, Shin, S., Kang, S., Kim, G., and Kim, S.  
 **Conference**: CHI EA ’25: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems 
 
 <!--more-->

@@ -13,17 +13,13 @@
   }
 }
 
-/* Magneto 포스트에서만 상단 이미지(GIF) 숨기기 */
-body[data-title*="Magneto Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields"] .post-cover {
-  display: none;
+/* Magneto 포스트에서만 이미지 제거 */
+article[id^="post-publication-Magneto Enabling Multimodal Haptic Feedback"] .post-cover {
+  display: none !important;
 }
 
-/* 모든 포스트에서 제목 영역 너비 제한 */
-.post-header {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
+/* 전체 포스트 제목 너비 제한 */
+.post-header,
 .post-title,
 .post-header h1,
 .page-title {
