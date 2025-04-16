@@ -5,7 +5,11 @@ description: >
   CHI EA ’25
 image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
-# accent_image: /assets/img/Magneto/Magneto.png
+  srcset:
+    1920w: /assets/img/Magneto/Magneto.png
+    960w: /assets/img/Magneto/Magneto.png
+    480w: /assets/img/Magneto/Magneto.png
+accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
 authors: <strong>Park, J.</strong>, Shin, S., Kang, S., Kim, G., and Kim, S.
@@ -23,7 +27,7 @@ conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of t
 </div>
 
 **Title**: Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields  
-**Authors**: **Park, J.**, Shin, S., Kang, S., Kim, G., and Kim, S.  
+**Authors**: Park, J., Shin, S., Kang, S., Kim, G., and Kim, S.  
 **Conference**: CHI EA ’25: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems 
 
 <!--more-->
