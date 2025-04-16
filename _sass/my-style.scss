@@ -14,16 +14,11 @@
 }
 
 
-.post-header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.post-header h1 {
+/* 전체 포스트 제목 너비 제한 */
+.post-header,
+.post-title,
+.post-header h1,
+.page-title {
   max-width: 1000px;
-  width: 100%;
-  padding: 0 1rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
+  margin: 0 auto;
 }
