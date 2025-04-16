@@ -13,16 +13,25 @@
   }
 }
 
-/* Magneto 포스트에서만 GIF 숨기기 */
-article#post-publication-2025-03-29-Magneto-Enabling-Multimodal-Haptic-Feedback-on-Paper-through-Magnetic-Fields .post-cover {
+/* 🎯 1. Magneto 포스트에서만 GIF 숨기기 */
+article[id="post-publication-2025-03-29-Magneto-Enabling-Multimodal-Haptic-Feedback-on-Paper-through-Magnetic-Fields"] .image-wrapper,
+article[id="post-publication-2025-03-29-Magneto-Enabling-Multimodal-Haptic-Feedback-on-Paper-through-Magnetic-Fields"] .post-cover {
   display: none !important;
 }
 
-/* 전체 포스트 제목 너비 제한 */
-.post-header,
-.post-title,
-.post-header h1,
-.page-title {
+/* 🎯 2. 전체 포스트 제목 너비와 정렬 개선 */
+.post-header h1 {
   max-width: 1000px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem; /* 아래 여백 추가 */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+/* 🎯 3. 제목 감싸는 헤더도 가운데 정렬 */
+.post-header {
+  display: block !important;
+  text-align: center;
 }
