@@ -4,7 +4,7 @@ title: Magneto Enabling Multimodal Haptic Feedback on Paper through Magnetic Fie
 description: >
   CHI EA ’25
 image:
-  path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
+  #path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
   #srcset:
   #  1920w: /assets/img/Magneto/Magneto.png
   #  960w: /assets/img/Magneto/Magneto.png
@@ -59,5 +59,5 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
 
 I’m also presenting another project at CHI EA 2025 —  
 <a href="/publication/telepulse/"><strong>Telepulse</strong></a>, a wearable EMS-based system that provides force feedback during teleoperation.  
-This work was recognized with a <strong>Best Paper Award (Top 1%)</strong>.  
+This work was recognized with a 🏆<strong>Best Paper Award (Top 1%)</strong>.  
 Feel free to check it out!
