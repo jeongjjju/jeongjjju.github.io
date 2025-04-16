@@ -44,3 +44,12 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
 ## 🔗 Link
 
 [Coming Soon]
+
+---
+
+## ✨ Also at CHI EA '25
+
+I’m also presenting another project at CHI EA 2025 —  
+<a href="/publication/telepulse/"><strong>Telepulse</strong></a>, a wearable EMS-based system that provides force feedback during teleoperation.  
+This work was recognized with a <strong>Best Paper Award (Top 1%)</strong>.  
+Feel free to check it out!
