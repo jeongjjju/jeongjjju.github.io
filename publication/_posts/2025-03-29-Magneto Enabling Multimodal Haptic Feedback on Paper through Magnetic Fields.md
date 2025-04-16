@@ -6,7 +6,9 @@ description: >
 image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
   srcset:
-    0w: /assets/img/Magneto/Magneto.png
+    1920w: /assets/img/Magneto/Magneto.png
+    960w: /assets/img/Magneto/Magneto.png
+    480w: /assets/img/Magneto/Magneto.png
 accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
@@ -16,6 +18,17 @@ conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of t
 
 ## Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields
 
+
+**Title**: Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields  
+**Authors**: Park, J., Shin, S., Kang, S., Kim, G., and Kim, S.  
+**Conference**: CHI EA ’25: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems 
+
+<!--more-->
+
+---
+
+## Video
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 2rem;">
   <iframe src="https://www.youtube.com/embed/qbmdzJSccFU"
           frameborder="0"
@@ -23,12 +36,6 @@ conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of t
           style="position: absolute; top:0; left: 0; width: 100%; height: 100%;">
   </iframe>
 </div>
-
-**Title**: Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields  
-**Authors**: Park, J., Shin, S., Kang, S., Kim, G., and Kim, S.  
-**Conference**: CHI EA ’25: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems 
-
-<!--more-->
 
 ---
 
@@ -62,4 +69,4 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
 
 I’m also presenting another project at CHI 2025 — <a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/"><strong>Telepulse</strong></a>,  
 a wearable EMS-based system that provides force feedback during teleoperation in VR.  
-This work was recognized with a 🏆 <strong>Best Paper Award (Top 1%)</strong>.
+This work was recognized with a 🏆<strong>Best Paper Award (Top 1%)</strong>.

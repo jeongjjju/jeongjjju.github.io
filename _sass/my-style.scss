@@ -12,3 +12,20 @@
     margin: 1rem 0;
   }
 }
+
+/* 📐 전체 포스트 페이지 제목 스타일 */
+.post-header {
+  display: flex;
+  justify-content: center;
+  padding: 0; /* 좌우 padding 제거 */
+  margin-bottom: 2rem; /* 아래 여백 추가 */
+}
+
+.post-header h1 {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 2.4rem; /* 필요시 수정 가능 */
+}
