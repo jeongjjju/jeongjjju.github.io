@@ -56,7 +56,7 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
 
 <a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/">
   <img src="/assets/img/Telepulse/media.gif" alt="Telepulse teaser"
-       style="max-width: 600px; width: 100%; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+       style="max-width: 1000px; width: 100%; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 I’m also presenting another project at CHI 2025 —  
