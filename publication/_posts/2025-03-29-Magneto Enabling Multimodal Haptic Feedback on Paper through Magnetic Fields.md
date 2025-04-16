@@ -1,8 +1,3 @@
-<style>
-  .post-cover, .post-cover-image, .image-wrapper {
-    display: none !important;
-  }
-</style>
 ---
 layout: post
 title: Magneto Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields
