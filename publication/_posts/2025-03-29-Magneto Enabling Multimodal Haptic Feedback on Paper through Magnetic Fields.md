@@ -5,10 +5,10 @@ description: >
   CHI EA ’25
 image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
-  srcset:
-    1920w: /assets/img/Magneto/Magneto.png
-    960w: /assets/img/Magneto/Magneto.png
-    480w: /assets/img/Magneto/Magneto.png
+  #srcset:
+  #  1920w: /assets/img/Magneto/Magneto.png
+  #  960w: /assets/img/Magneto/Magneto.png
+  #  480w: /assets/img/Magneto/Magneto.png
 accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
@@ -17,6 +17,14 @@ conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of t
 ---
 
 ## Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 2rem;">
+  <iframe src="https://www.youtube.com/embed/qbmdzJSccFU"
+          frameborder="0"
+          allowfullscreen
+          style="position: absolute; top:0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 **Title**: Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields  
 **Authors**: Park, J., Shin, S., Kang, S., Kim, G., and Kim, S.  
