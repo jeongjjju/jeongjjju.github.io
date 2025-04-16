@@ -1,3 +1,8 @@
+<style>
+  .post-cover, .post-cover-image, .image-wrapper {
+    display: none !important;
+  }
+</style>
 ---
 layout: post
 title: Magneto Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields
@@ -5,7 +10,6 @@ description: >
   CHI EA ’25
 image:
   path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
-hide_image_on_post: true
 # accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
