@@ -29,8 +29,6 @@ conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of t
 
 ## 🎥 Video
 
-Watch the demo video below to see how **Magneto** brings paper to life with magnetic haptic feedback.
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 2rem;">
   <iframe src="https://www.youtube.com/embed/qbmdzJSccFU"
           frameborder="0"
