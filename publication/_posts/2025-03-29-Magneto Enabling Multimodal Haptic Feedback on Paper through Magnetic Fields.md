@@ -57,18 +57,12 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
 
 ## ✨ Also at CHI '25
 
-{% assign telepulse = site.posts | where: "title", "TelePulse Enhancing the Teleoperation Experience through Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality" | first %}
+<a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/">
+  <img src="/assets/img/Telepulse/media.gif" alt="Telepulse teaser"
+       style="max-width: 600px; width: 100%; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+</a>
 
-<p style="text-align: center; margin-top: 1rem;">
-  <a href="{{ telepulse.url }}">
-    <img src="/assets/img/Telepulse/media.gif" alt="Telepulse teaser"
-         style="max-width: 600px; width: 100%; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); transition: transform 0.2s ease;"
-         onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
-  </a>
-</p>
-
-<p style="text-align: center; font-size: 1rem; margin-top: 0.5rem;">
-  I'm also presenting <a href="{{ telepulse.url }}"><strong>Telepulse</strong></a> at CHI 2025 —  
-  a wearable EMS-based system that provides force feedback during teleoperation in VR.  
-  <br>🏆 <strong>Best Paper Award (Top 1%)</strong>
-</p>
+I’m also presenting another project at CHI 2025 —  
+<a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/"><strong>Telepulse</strong></a>,  
+a wearable EMS-based system that provides force feedback during teleoperation in VR.  
+🏆 This work was recognized with a <strong>Best Paper Award (Top 1%)</strong>.
