@@ -4,7 +4,7 @@ title: Magneto Enabling Multimodal Haptic Feedback on Paper through Magnetic Fie
 description: >
   CHI EA ’25
 image:
-  #path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
+  path: /assets/img/Magneto/KakaoTalk_20250314_222729720.gif
   #srcset:
   #  1920w: /assets/img/Magneto/Magneto.png
   #  960w: /assets/img/Magneto/Magneto.png
@@ -57,12 +57,15 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
 
 ## ✨ Also at CHI '25
 
-<a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/">
+{% assign telepulse_post = site.posts | where_exp: "item", "item.title contains 'TelePulse Enhancing the Teleoperation Experience'" | first %}
+
+<a href="{{ telepulse_post.url }}">
   <img src="/assets/img/Telepulse/media.gif" alt="Telepulse teaser"
        style="max-width: 600px; width: 100%; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
 </a>
 
 I’m also presenting another project at CHI 2025 —  
-<a href="/publication/2025-03-28-TelePulse-Enhancing-the-Teleoperation-Experience-through-Biomechanical-Simulation-Based-Electrical-Muscle-Stimulation-in-Virtual-Reality/"><strong>Telepulse</strong></a>,  
+<a href="{{ telepulse_post.url }}"><strong>Telepulse</strong></a>,  
 a wearable EMS-based system that provides force feedback during teleoperation in VR.  
-🏆 This work was recognized with a <strong>Best Paper Award (Top 1%)</strong>.
+🏅 This work was recognized with a <strong>Best Paper Award (Top 1%)</strong>.
+
