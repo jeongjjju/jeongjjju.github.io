@@ -21,7 +21,7 @@ url:                   https://jeongjupark.com
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 JeongjuPark
+title:                 JeongjuPark's Homepage
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   A personal academic website of Jeongju Park, showcasing research in haptics, wearables, and human-computer interaction.
 
 # A shorter description for the sidebar.
-tagline:               Jeongju Park
+#tagline:               Jeongju Park
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/HeaderV1.jpeg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -237,10 +237,10 @@ hydejack:
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
-  no_third_column:     true
+  no_third_column:     false
 
   # Set to `true` if you don't like oversized headlines on large screens.
-  no_large_headings:   false
+  no_large_headings:   true
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
