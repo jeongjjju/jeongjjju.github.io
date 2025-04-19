@@ -13,7 +13,7 @@ accent_image: /assets/img/Magneto/Magneto.png
 excerpt_separator: <!--more-->
 sitemap: true
 authors: <strong>Park, J.</strong>, Shin, S., Kang, S., Kim, G., and Kim, S.
-conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of the CHI Conference on Human Factors in Computing Systems - Accepted</em>"
+conference: "<strong><em>CHI EA ’25</em></strong>: <em>Extended Abstracts of the CHI Conference on Human Factors in Computing Systems</em>"
 ---
 
 ## Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields
