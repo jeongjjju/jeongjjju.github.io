@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /assets/img/me4aboutMe.jpg
+image: /assets/img/me.jpeg
 description: >
   A boutique Jekyll theme for hackers, nerds, and academics,
   with a focus on personal sites that are meant to impress.
@@ -9,7 +9,7 @@ redirect_from:
   - /download/
 ---
 <style>
-img[src*="/assets/img/me4aboutMe.jpg"] {
+img[src*="/assets/img/me4aboutMe.jpeg"] {
   width: 240px !important;
   height: 240px !important;
   object-fit: cover !important;
