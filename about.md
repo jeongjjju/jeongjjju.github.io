@@ -17,7 +17,7 @@ img[src*="/assets/img/me4aboutMe.jpg"] {
   border-radius: 10% !important;
   display: block;
   margin: 0 auto;
-  transform: scale(2);
+  transform: scale(1.2);
 }
 </style>
 
