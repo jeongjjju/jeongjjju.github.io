@@ -13,8 +13,6 @@ img[src*="/assets/img/me4aboutMe.jpg"] {
   width: 240px !important;
   height: 240px !important;
   overflow: hidden;
-  object-fit: cover !important;
-  object-position: center !important;
   border-radius: 10% !important;
   display: block;
   margin: 0 auto;
