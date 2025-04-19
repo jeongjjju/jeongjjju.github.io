@@ -21,7 +21,7 @@ url:                   https://jeongjupark.com
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 JeongjuPark's Homepage
+title:                 Jeongju Park
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   A personal academic website of Jeongju Park, showcasing research in haptics, wearables, and human-computer interaction.
 
 # A shorter description for the sidebar.
-#tagline:               Jeongju Park
+tagline:               Personal Website
 
 # A list of keywords for your blog
 keywords:              []
@@ -237,10 +237,10 @@ hydejack:
   # When set to `true`, will not extend the content in the "third column" on large screens.
   # Instead, all content will remains within the center column.
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
-  no_third_column:     false
+  no_third_column:     true
 
   # Set to `true` if you don't like oversized headlines on large screens.
-  no_large_headings:   true
+  no_large_headings:   false
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
@@ -268,10 +268,10 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date. 
-  hide_dates:          false
+  hide_dates:          ture
 
   # Similarly, showing last modified date can devalue a post if it is too far in the past.
-  hide_last_modified:  false
+  hide_last_modified:  ture
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
