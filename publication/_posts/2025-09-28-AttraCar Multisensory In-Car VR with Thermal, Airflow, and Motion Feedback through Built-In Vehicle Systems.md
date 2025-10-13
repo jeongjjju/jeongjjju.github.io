@@ -25,7 +25,8 @@ award:
 **Title**: AttraCar: Multisensory In-Car VR with Thermal, Airflow, and Motion Feedback through Built-In Vehicle Systems  
 **Authors**: Yeo, D., Kim, G., Oh, M., **Park, J.**, Gim, B., Kang, S., Elsharkawy, A., and Kim, S.  
 **Conference**: UIST ’25: ACM Symposium on User Interface Software and Technology <br>
-**Awards**: 🏆 Demo Honorable Mention Award (UIST '25), 🏅 People’s Choice Best Demo Award (UIST '25), 🥇 ISMAR ’25 Best Demo Award (ISMAR '25)
+**Awards**: 🏆 Demo Honorable Mention Award (UIST '25), 🏅 People’s Choice Best Demo Award (UIST '25), 
+🥇 ISMAR ’25 Best Demo Award (ISMAR '25)
 <!--more-->
 
 ---
