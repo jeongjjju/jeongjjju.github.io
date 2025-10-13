@@ -36,4 +36,4 @@ This paper introduces TelePulse, a system integrating biomechanical simulation w
 
 ## 🔗 Link
 
-[Coming Soon]
+Click [here](https://dl.acm.org/doi/full/10.1145/3706598.3713767) for more information about this project.

@@ -24,7 +24,7 @@ conference: "<strong><em>UIST ’24</em></strong>: <em>The ACM Symposium on User
 <!--more-->
 ---
 
-## 🧊 Project Overview
+## 🔥 Project Overview
 
 This paper presents "Flip-Pelt," a motor-driven thermal haptic device designed to rapidly deliver warm and cool sensations paired with congruent pressure feedback for enhanced realism in virtual reality (VR).
 
