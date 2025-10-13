@@ -57,7 +57,8 @@ Experimental evaluations confirm that Magneto's feedback falls within human perc
 
 ## 🔗 Link
 
-[Coming Soon]
+[Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields](https://dl.acm.org/doi/abs/10.1145/3706599.3720242)
+
 
 ---
 
