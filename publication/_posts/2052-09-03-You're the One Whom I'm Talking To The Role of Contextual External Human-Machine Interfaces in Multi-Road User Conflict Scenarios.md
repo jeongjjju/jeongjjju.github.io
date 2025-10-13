@@ -4,12 +4,12 @@ title: You’re the One Whom I’m Talking To The Role of Contextual External Hu
 description: >
   IMWUT ’25 (Proc. ACM Interact. Mob. Wearable Ubiquitous Technol., Sep 2025)
 image:
-  path: /assets/img/ehmi-context/teaser.png
+  path: /assets/img/MultiUser_eHMI/Teaser.gif
   srcset:
-    1920w: /assets/img/ehmi-context/teaser.png
-    960w: /assets/img/ehmi-context/teaser.png
-    480w: /assets/img/ehmi-context/teaser.png
-accent_image: /assets/img/ehmi-context/teaser.png
+    1920w: /assets/img/MultiUser_eHMI/Teaser.gif
+    960w: /assets/img/MultiUser_eHMI/Teaser.gif
+    480w: /assets/img/MultiUser_eHMI/Teaser.gif
+accent_image: /assets/img/MultiUser_eHMI/Teaser.gif
 excerpt_separator: <!--more-->
 sitemap: true
 authors: "Kang, Y., <strong>Park, J.</strong>, Hwang, S., Seong, M., Kim, G., and Kim, S."
@@ -19,7 +19,7 @@ conference: "<strong><em>IMWUT ’25</em></strong>: <em>Proceedings of the ACM o
 ## You’re the One Whom I’m Talking To: The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios
 
 **Title**: You’re the One Whom I’m Talking To: The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios  
-**Authors**: Kang, Y., Park, J., Hwang, S., Seong, M., Kim, G., and Kim, S.  
+**Authors**: Kang, Y., **Park, J.**, Hwang, S., Seong, M., Kim, G., and Kim, S.  
 **Conference**: Proc. ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), September 2025 <br>
 <!--more-->
 
