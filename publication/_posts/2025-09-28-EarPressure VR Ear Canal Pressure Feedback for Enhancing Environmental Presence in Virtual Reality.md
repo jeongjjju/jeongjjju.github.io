@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EarPressure VR Ear Canal Pressure Feedback for Enhancing Environmental Presence in Virtual Reality
+featured: true
 description: >
   UIST ’25 (The 38th Annual ACM Symposium on User Interface Software and Technology)
 image:

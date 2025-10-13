@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're the One Whom I'm Talking To The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios
+featured: true
 description: >
   IMWUT ’25 (Proc. ACM Interact. Mob. Wearable Ubiquitous Technol., Sep 2025)
 image:

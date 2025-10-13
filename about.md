@@ -62,7 +62,7 @@ img[src*="/assets/img/me4aboutMe.jpg"] {
 </style>
 
 <div class="post-list">
-  {% assign selected_posts = site.posts | where_exp: "item", "item.categories contains 'publication'" | slice: 0, 3 %}
+  {% assign selected_posts = site.posts | where: "featured", true %}
   {% for post in selected_posts %}
     <div class="selected-post-preview">
       {% if post.image and post.image.path %}
@@ -101,6 +101,10 @@ img[src*="/assets/img/me4aboutMe.jpg"] {
 1. this list will be replaced by the toc  
 {:toc .large-only}
 
+- **Best Demo Award**, *ISMAR ’25: IEEE International Symposium on Mixed and Augmented Reality* (Oct. 2025)
+- **Demo Honorable Mention Award**, *UIST ’25: ACM Symposium on User Interface Software and Technology* (Oct. 2025)  
+- **People’s Choice Best Demo Award**, *UIST ’25: ACM Symposium on User Interface Software and Technology* (Oct. 2025)
+- **Best Paper Award (Top 1%)**, *CHI ’25: ACM Conference on Human Factors in Computing Systems* (May 2025)
 - **Outstanding Student Paper Award at the 2022 Summer Annual Conference**, The Institute of Electronics and Information Engineers, Korea (Jul. 2022)  
 - **2021 Capstone Design Industry-Academic Cooperation Competition**, Convergence and Open Sharing System, Korea (Dec. 2021)  
 - **Oasis Hackathon Special Award**, Oasis Hackathon Business Team, Korea (Aug. 2021)  

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AttraCar Multisensory In-Car VR with Thermal, Airflow, and Motion Feedback through Built-In Vehicle Systems
+featured: true
 description: >
   UIST ’25 (The 38th Annual ACM Symposium on User Interface Software and Technology)
 image:
