@@ -142,12 +142,12 @@ def dated_entry(title, date, subtitle=None, detail=None):
 
 
 def pub(authors, title, venue, year, url, award=None):
-    award_text = f' &nbsp; <font color="#9A6811"><b>{award}</b></font>' if award else ""
+    award_text = f'<br/><font color="#9A6811"><b>Awards:</b> {award}</font>' if award else ""
     return Paragraph(
         f'<b>{title}</b><br/>'
         f'{authors}<br/>'
-        f'<i>{venue}</i>, {year}{award_text} &nbsp; '
-        f'<link href="{url}" color="#286A9B">[Paper]</link>',
+        f'<i>{venue}</i>, {year} &nbsp; '
+        f'<link href="{url}" color="#286A9B">[Paper]</link>{award_text}',
         publication_style,
     )
 
@@ -239,7 +239,7 @@ story.append(pub(
     "ACM Symposium on User Interface Software and Technology (UIST)",
     "2025",
     "https://doi.org/10.1145/3746059.3747642",
-    "Three Demo Awards",
+    "Best Demonstration Award (IEEE ISMAR 2025); People's Choice Best Demo Award (ACM UIST 2025); Demo Honorable Mention Award (ACM UIST 2025)",
 ))
 story.append(pub(
     "B. Gim, S. Kang, D. Yeo, G. Kim, J. Um, <b>J. Park</b>, and S. Kim,",
