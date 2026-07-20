@@ -1,6 +1,11 @@
-#after any changes to the Gemfile, execute bundle update!
-source "https://rubygems.org"
-gemspec
+# frozen_string_literal: true
 
-# Delete the following lines if not on Windows: 
-gem "wdm", ">= 0.1.0" if Gem.win_platform?
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-feed"
+gem "jekyll-readme-index"
+gem "jekyll-redirect-from"
+gem "jekyll-remote-theme"
+gem "jemoji"
+gem "webrick"

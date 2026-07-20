@@ -1,0 +1,700 @@
+/* Keep the GitBook layout calm and content-focused. */
+*,
+*::before,
+*::after {
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  transition-duration: 0s !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.book,
+.book.font-family-0,
+.book.font-family-1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+}
+
+.book.font-size-0 .book-body .page-inner section,
+.book.font-size-1 .book-body .page-inner section,
+.book.font-size-2 .book-body .page-inner section,
+.book.font-size-3 .book-body .page-inner section,
+.book.font-size-4 .book-body .page-inner section,
+.book .book-body .page-inner section {
+  font-size: 1.5rem !important;
+}
+
+.book-header .font-settings {
+  display: none !important;
+}
+
+.book-header .pull-right {
+  display: none !important;
+}
+
+.body-inner {
+  scroll-behavior: smooth;
+}
+
+.fa-spin {
+  animation: none !important;
+}
+
+.navigation.navigation-unique {
+  display: none !important;
+}
+
+.markdown-section img {
+  border-radius: 8px;
+  height: auto;
+  max-width: 100%;
+}
+
+.markdown-section code {
+  border-radius: 4px;
+}
+
+.profile-hero {
+  align-items: start;
+  display: grid;
+  column-gap: clamp(28px, 4vw, 48px);
+  grid-template-areas:
+    "summary photo"
+    "vision photo"
+    "links photo";
+  grid-template-columns: minmax(0, 1fr) 205px;
+  margin: 1rem 0 4.5rem;
+  row-gap: 0;
+}
+
+.profile-photo {
+  align-self: start;
+  grid-area: photo;
+  padding-top: 10px;
+}
+
+.profile-photo img {
+  border: 1px solid #e4e7eb;
+  border-radius: 18px;
+  display: block;
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.profile-summary {
+  align-self: center;
+  grid-area: summary;
+}
+
+.profile-summary h1 {
+  font-size: clamp(2.8rem, 3.4vw, 3.6rem);
+  letter-spacing: -0.045em;
+  line-height: 1.02;
+  margin: 0 0 1.25rem;
+}
+
+.profile-summary .profile-intro {
+  font-size: clamp(1.5rem, 1.35vw, 1.65rem);
+  line-height: 1.65;
+}
+
+.vision-panel {
+  background: #f6f8fa;
+  border-left: 3px solid #5b8db8;
+  border-radius: 0 10px 10px 0;
+  grid-area: vision;
+  margin-top: 2rem;
+  padding: 1.6rem 1.8rem 1.75rem;
+}
+
+.vision-label {
+  color: #5b7185;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.profile-summary + .vision-panel .vision-title {
+  font-size: clamp(1.75rem, 1.65vw, 2rem);
+  line-height: 1.35;
+  margin: 0.45rem 0 0.7rem;
+}
+
+.vision-panel p {
+  font-size: 1.5rem;
+  line-height: 1.72;
+  margin: 0;
+}
+
+.profile-hero .profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  grid-area: links;
+  margin-top: 0 !important;
+  padding-top: 3.2rem;
+}
+
+.profile-links span {
+  display: none;
+}
+
+.profile-links a {
+  border: 1px solid #d8dee4;
+  border-radius: 999px;
+  color: #425466;
+  font-size: 1.25rem;
+  padding: 0.45rem 0.85rem;
+}
+
+.career-card {
+  background: #f7f9fb;
+  border: 1px solid #e5e9ed;
+  border-radius: 14px;
+  display: grid;
+  gap: clamp(24px, 3vw, 38px);
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  margin: 0 0 4.5rem;
+  padding: 22px clamp(26px, 3vw, 34px);
+}
+
+.career-card h2 {
+  font-size: 1.95rem;
+  margin: 0 0 1.5rem;
+}
+
+.education-entry {
+  align-items: start;
+  display: grid;
+  gap: 0 12px;
+  grid-template-columns: 42px minmax(0, 1fr);
+  margin-bottom: 1.6rem;
+}
+
+.education-entry > img {
+  background: #fff;
+  border: 1px solid #e1e5e8;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 40px;
+  margin: 1px 0 0;
+  object-fit: contain;
+  padding: 3px;
+  width: 40px;
+}
+
+.career-card .education-copy h3 {
+  color: #24292f;
+  font-size: 1.45rem;
+  line-height: 1.3;
+  margin: 0 0 0.3rem !important;
+}
+
+.education-copy p {
+  margin: 0;
+}
+
+.education-copy > span {
+  color: #66717d;
+  display: block;
+  font-size: 1.25rem;
+  margin-top: 0.2rem;
+}
+
+.education-entry > time {
+  color: #66717d;
+  font-size: 1.2rem;
+  font-style: italic;
+  grid-column: 2;
+  margin-top: 0.35rem;
+}
+
+.honors-list {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.honors-list li {
+  align-items: baseline;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  line-height: 1.45;
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.honors-list li::before {
+  content: "•";
+  left: 0;
+  position: absolute;
+}
+
+.honors-list time {
+  color: #58616b;
+  font-size: 1.2rem;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.honors-list small {
+  color: #7a8490;
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-top: 0.08rem;
+}
+
+.theme-toggle {
+  align-items: center;
+  background: rgba(90, 104, 118, 0.12);
+  border: 1px solid rgba(90, 104, 118, 0.15);
+  border-radius: 50%;
+  color: rgba(45, 55, 65, 0.62);
+  cursor: pointer;
+  display: flex;
+  font: 600 2rem/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  height: 38px;
+  justify-content: center;
+  padding: 0;
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  width: 38px;
+  z-index: 12;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  background: rgba(90, 104, 118, 0.2);
+  color: rgba(30, 39, 48, 0.9);
+  outline: none;
+}
+
+.book.theme-dark .book-body,
+.book.theme-dark .body-inner,
+.book.theme-dark .page-wrapper,
+.book.theme-dark .book-body .page-wrapper .page-inner section.normal {
+  background: #171a1f !important;
+  color: #d9e0e7 !important;
+}
+
+.book.theme-dark .book-header {
+  background: #171a1f !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  color: #d9e0e7 !important;
+}
+
+.book.theme-dark .book-header h1,
+.book.theme-dark .book-header h1 a,
+.book.theme-dark .book-header .btn {
+  color: rgba(217, 224, 231, 0.72) !important;
+}
+
+.book.theme-dark .book-summary {
+  background: #1d2127;
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #d9e0e7;
+}
+
+.book.theme-dark .book-summary ul.summary li a,
+.book.theme-dark .book-summary ul.summary li span,
+.book.theme-dark .portfolio-name a {
+  color: #cbd3dc;
+}
+
+.book.theme-dark .book-summary ul.summary li.active > a {
+  color: #75b7ee;
+}
+
+.book.theme-dark .portfolio-name,
+.book.theme-dark .book-summary ul.summary li.divider {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.book.theme-dark .vision-panel,
+.book.theme-dark .career-card {
+  background: #22272e;
+  border-color: #343b44;
+}
+
+.book.theme-dark .education-copy h3,
+.book.theme-dark .profile-summary h1,
+.book.theme-dark .career-card h2,
+.book.theme-dark .vision-panel .vision-title {
+  color: #eef2f6;
+}
+
+.book.theme-dark .education-copy > span,
+.book.theme-dark .education-entry > time,
+.book.theme-dark .honors-list time,
+.book.theme-dark .honors-list small,
+.book.theme-dark .vision-label {
+  color: #aab6c2;
+}
+
+.book.theme-dark .profile-links a {
+  border-color: #46515c;
+  color: #9dccf3;
+}
+
+.book.theme-dark .theme-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.portfolio-name {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 28px 28px 22px;
+}
+
+.portfolio-name a {
+  color: inherit;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.portfolio-name span {
+  color: #9daab6;
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.portfolio-nav {
+  padding-top: 14px !important;
+}
+
+.portfolio-nav .external a {
+  color: #9daab6 !important;
+  font-size: 13px;
+}
+
+.sidebar-close {
+  display: none;
+}
+
+.section-anchor {
+  display: block;
+  position: relative;
+  top: -24px;
+  visibility: hidden;
+}
+
+.markdown-section h2 {
+  margin-top: 2.5rem;
+}
+
+.markdown-section h3 {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
+
+.markdown-section hr {
+  margin: 4rem 0;
+}
+
+.publication-list {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.publication-item {
+  align-items: start;
+  display: grid;
+  gap: clamp(18px, 2.5vw, 30px);
+  grid-template-columns: clamp(150px, 21vw, 220px) minmax(0, 1fr);
+}
+
+.markdown-section .publication-teaser {
+  aspect-ratio: 16 / 10;
+  background: #eef2f5;
+  border: 1px solid #e2e7eb;
+  border-radius: 7px;
+  box-sizing: border-box;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.publication-placeholder {
+  align-items: center;
+  background: linear-gradient(145deg, #eef4f8, #e1e8ee) !important;
+  color: #607487;
+  display: flex;
+  font-size: 1.05rem;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.publication-copy h3 {
+  color: #24292f;
+  font-size: 1.45rem;
+  line-height: 1.35;
+  margin: 0 0 0.5rem;
+}
+
+.publication-copy p {
+  font-size: 1.25rem;
+  line-height: 1.52;
+  margin: 0.25rem 0;
+}
+
+.publication-authors {
+  color: #4d5660;
+}
+
+.publication-venue {
+  color: #30363d;
+}
+
+.publication-award {
+  color: #9a6811;
+  font-weight: 600;
+}
+
+.publication-links a {
+  font-weight: 600;
+}
+
+.book.theme-dark .publication-copy h3,
+.book.theme-dark .publication-venue {
+  color: #eef2f6;
+}
+
+.book.theme-dark .publication-authors {
+  color: #b9c3cd;
+}
+
+.book.theme-dark .publication-placeholder {
+  background: linear-gradient(145deg, #29313a, #22282f) !important;
+  border-color: #39434e;
+  color: #aebdca;
+}
+
+@media (max-width: 1020px) {
+  .profile-hero {
+    gap: 28px;
+    grid-template-columns: minmax(0, 1fr) 170px;
+  }
+
+  .profile-summary h1 {
+    font-size: 3rem;
+  }
+
+  .vision-panel {
+    padding: 1.5rem 1.6rem 1.65rem;
+  }
+
+  .career-card {
+    gap: 30px;
+    padding: 22px 26px;
+  }
+}
+
+@media (max-width: 760px) {
+  .profile-hero {
+    column-gap: 16px;
+    grid-template-areas:
+      "photo summary"
+      "vision vision"
+      "links links";
+    grid-template-columns: 120px minmax(0, 1fr);
+    margin-bottom: 4rem;
+    row-gap: 20px;
+  }
+
+  .profile-photo {
+    max-width: 120px;
+    padding-top: 0;
+  }
+
+  .profile-photo img {
+    height: auto;
+  }
+
+  .profile-summary {
+    align-self: center;
+  }
+
+  .profile-summary h1 {
+    font-size: 2.45rem;
+    line-height: 1.08;
+    margin-bottom: 0.8rem;
+  }
+
+  .profile-summary .profile-intro,
+  .vision-panel p {
+    font-size: 1.4rem;
+  }
+
+  .profile-summary .profile-intro {
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  .vision-panel {
+    margin-top: 0;
+  }
+
+  .profile-links {
+    margin-top: 0 !important;
+    padding-top: 2.8rem;
+  }
+
+  .career-card {
+    gap: 38px;
+    grid-template-columns: 1fr;
+    padding: 22px 20px;
+  }
+
+  .honors-list li {
+    gap: 4px;
+    grid-template-columns: 1fr;
+  }
+
+  .honors-list time {
+    margin-bottom: 0.25rem;
+  }
+
+  .theme-toggle {
+    right: 12px;
+  }
+
+  .publication-item {
+    gap: 16px;
+    grid-template-columns: 126px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .book-summary {
+    box-shadow: 12px 0 30px rgba(0, 0, 0, 0.18);
+    left: -100%;
+    max-width: 330px;
+    width: 88vw;
+    z-index: 30;
+  }
+
+  .book.with-summary .book-summary {
+    left: 0;
+  }
+
+  .book.with-summary .book-body {
+    transform: none !important;
+  }
+
+  .sidebar-close {
+    align-items: center;
+    background: rgba(90, 104, 118, 0.1);
+    border: 0;
+    border-radius: 50%;
+    color: #687582;
+    cursor: pointer;
+    display: flex;
+    font: 400 2.4rem/1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    height: 34px;
+    justify-content: center;
+    padding: 0 0 2px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 34px;
+    z-index: 2;
+  }
+
+  .book.theme-dark .sidebar-close {
+    background: rgba(255, 255, 255, 0.1);
+    color: #c7d0d9;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-hero {
+    column-gap: 14px;
+    grid-template-columns: 102px minmax(0, 1fr);
+    row-gap: 18px;
+  }
+
+  .profile-photo {
+    max-width: 102px;
+  }
+
+  .profile-summary h1 {
+    font-size: 2.2rem;
+  }
+
+  .profile-summary .profile-intro {
+    font-size: 1.3rem;
+  }
+
+  .vision-panel {
+    padding: 1.4rem 1.45rem 1.55rem;
+  }
+
+  .profile-links {
+    gap: 0.5rem;
+  }
+
+  .career-card {
+    border-radius: 10px;
+    padding: 20px 16px;
+  }
+
+  .education-entry {
+    grid-template-columns: 36px minmax(0, 1fr);
+    gap: 0 10px;
+  }
+
+  .education-entry > img {
+    height: 34px;
+    width: 34px;
+  }
+
+  .publication-list {
+    gap: 2.7rem;
+  }
+
+  .publication-item {
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .markdown-section .publication-teaser {
+    max-width: 220px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .body-inner {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

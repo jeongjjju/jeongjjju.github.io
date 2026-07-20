@@ -1,39 +1,60 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
+title: Jeongju Park
+longtitle: Jeongju Park — HCI Researcher & Maker
+author: Jeongju Park
+email: jeongjupark@gm.gist.ac.kr
+description: >-
+  Portfolio of Jeongju Park, an HCI researcher working on haptics,
+  virtual reality, and interactive systems.
 
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+url: "https://jeongjjju.github.io"
+baseurl: ""
 
-theme: jekyll-agency
-
-url    : "https://jeongjjju.github.io"
-baseurl: "" # the subpath of your site, e.g. /blog
-
-title      : Jeongju's Homepage
-email      : jeongjupark@gm.gist.ac.kr
-description: "Master's student"
-author     : Jeongju Park
-#logo:     #optional, defaults to site title
-  #path: assets\img\clients\star-medal.png
-  #height: 60 #height in px, defaults to 52pxa
-
-locale: "en-US" # See available languages in _data/sitetext.yml
-
-analytics:
-  google: G-PE0FZRZVZ8 #Google Analytics tracking code here
-
-collections:
-  portfolio:
+remote_theme: sighingnow/jekyll-gitbook
 
 markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-formspree_form_path: https://formspree.io/f/xgegrpqe
+toc:
+  enabled: false
+  enabled_index: false
+  h_min: 2
+  h_max: 3
+
+collections:
+  pages:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    sort_by: order
+    permalink: /projects/:path/
+
+ordered_collections: []
+
+page_width: 860px
+syntax_highlighter_style: colorful
+
+extra_css:
+  - assets/css/portfolio.css
+
+extra_footer_js:
+  - assets/js/theme-toggle.js
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jemoji
+
+exclude:
+  - README.md
+  - LICENSE.txt
+  - screenshot.PNG
+  - jekyll-agency.gemspec
+  - Upcoming
+  - vendor

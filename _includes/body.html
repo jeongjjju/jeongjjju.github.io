@@ -1,0 +1,24 @@
+<div class="page-wrapper" tabindex="-1" role="main">
+  <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme" onclick="togglePortfolioTheme()">
+    <span aria-hidden="true">☾</span>
+  </button>
+  <div class="page-inner">
+    <div id="book-search-results">
+      <div class="search-noresults">
+        <section class="normal markdown-section">
+          {% unless page.url == "/" or page.url == "/index.html" %}
+            <h1 id="{{ page.id }}">{{ page.title | default: site.title | escape }}</h1>
+          {% endunless %}
+
+          {{ content }}
+        </section>
+      </div>
+
+      {%- include search.html -%}
+    </div>
+  </div>
+</div>
+
+{% include mathjax.html %}
+{% if page.mermaid %}{% include mermaid.html %}{% endif %}
+{% include fixes-chrome-anchors.html %}
