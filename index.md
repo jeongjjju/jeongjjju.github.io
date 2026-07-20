@@ -103,7 +103,8 @@ title: Jeongju Park
     <div class="publication-copy">
       <h3>AttraCar: Multisensory In-Car VR with Thermal, Airflow, and Motion Feedback through Built-In Vehicle Systems</h3>
       <p class="publication-authors">Yeo, D., Kim, G., Oh, M., <strong>Park, J.</strong>, Gim, B., Kang, S., Elsharkawy, A., and Kim, S.</p>
-      <p class="publication-venue"><strong>UIST 2025</strong> · ACM Symposium on User Interface Software and Technology · <span class="publication-award">Three Demo Awards</span></p>
+      <p class="publication-venue"><strong>UIST 2025</strong> · ACM Symposium on User Interface Software and Technology</p>
+      <p class="publication-awards"><strong>Awards:</strong> Best Demonstration Award (IEEE ISMAR 2025) · People's Choice Best Demo Award (ACM UIST 2025) · Demo Honorable Mention Award (ACM UIST 2025)</p>
       <p class="publication-links"><a href="https://doi.org/10.1145/3746059.3747642">Paper</a></p>
     </div>
   </article>

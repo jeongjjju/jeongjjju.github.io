@@ -482,6 +482,13 @@ html {
   font-weight: 600;
 }
 
+.publication-copy .publication-awards {
+  color: #9a6811;
+  font-size: 1.12rem;
+  line-height: 1.45;
+  margin-top: 0.35rem;
+}
+
 .publication-links a {
   font-weight: 600;
 }
@@ -493,6 +500,10 @@ html {
 
 .book.theme-dark .publication-authors {
   color: #b9c3cd;
+}
+
+.book.theme-dark .publication-copy .publication-awards {
+  color: #d4a84d;
 }
 
 .book.theme-dark .publication-placeholder {
