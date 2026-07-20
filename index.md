@@ -18,7 +18,7 @@ title: Jeongju Park
     <h2 class="vision-title">Connecting spatial computing with human sensation</h2>
     <p>Computing is expanding beyond interactions centered on flat displays toward experiences that encompass the user's body and surrounding space. This shift opens new possibilities for engaging with digital information not only by seeing and manipulating it, but also by feeling it through the body. My research explores haptic interfaces that connect human sensation with digital environments, enabling interactions in spatial computing to be translated into meaningful tactile experiences.</p>
   </div>
-  <p class="profile-links"><a href="/assets/pdf/Aboutme/cv.pdf">Curriculum Vitae</a><span>·</span><a href="mailto:jeongjupark@gm.gist.ac.kr">Email</a><span>·</span><a href="https://scholar.google.com/citations?user=JmRPuDcAAAAJ&amp;hl=en">Google Scholar</a><span>·</span><a href="https://github.com/jeongjjju">GitHub</a><span>·</span><a href="https://www.linkedin.com/in/jeongju-park-4432a22bb/">LinkedIn</a></p>
+  <p class="profile-links"><a href="{{ '/assets/pdf/Aboutme/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a><span>·</span><a href="mailto:jeongjupark@gm.gist.ac.kr">Email</a><span>·</span><a href="https://scholar.google.com/citations?user=JmRPuDcAAAAJ&amp;hl=en">Google Scholar</a><span>·</span><a href="https://github.com/jeongjjju">GitHub</a><span>·</span><a href="https://www.linkedin.com/in/jeongju-park-4432a22bb/">LinkedIn</a></p>
 </section>
 
 ---
