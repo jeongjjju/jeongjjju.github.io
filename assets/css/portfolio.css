@@ -280,6 +280,64 @@ html {
   outline: none;
 }
 
+.haptic-easter-egg {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: text;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.haptic-easter-egg:focus-visible {
+  border-radius: 3px;
+  outline: 2px solid #5b8db8;
+  outline-offset: 2px;
+}
+
+.easter-egg-toast {
+  background: rgba(27, 34, 41, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  bottom: 24px;
+  color: #f4f7fa;
+  font-size: 1.15rem;
+  left: 50%;
+  max-width: min(88vw, 620px);
+  opacity: 0;
+  padding: 0.7rem 1.1rem;
+  pointer-events: none;
+  position: fixed;
+  text-align: center;
+  transform: translate(-50%, 12px);
+  visibility: hidden;
+  z-index: 50;
+}
+
+.easter-egg-toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+  visibility: visible;
+}
+
+@keyframes haptic-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-3px); }
+  40% { transform: translateX(3px); }
+  60% { transform: translateX(-2px); }
+  80% { transform: translateX(2px); }
+}
+
+.book.egg-shake .book-body {
+  animation: haptic-shake 0.36s ease !important;
+  animation-duration: 0.36s !important;
+}
+
+.book.theme-dark .haptic-easter-egg {
+  color: inherit;
+}
+
 .book.theme-dark .book-body,
 .book.theme-dark .body-inner,
 .book.theme-dark .page-wrapper,
