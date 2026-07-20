@@ -280,6 +280,18 @@ html {
   outline: none;
 }
 
+/* Keep stale cached markup from the removed easter egg visually harmless. */
+.haptic-easter-egg {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 .book.theme-dark .book-body,
 .book.theme-dark .body-inner,
 .book.theme-dark .page-wrapper,
