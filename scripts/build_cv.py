@@ -90,9 +90,9 @@ publication_style = ParagraphStyle(
     "Publication",
     parent=body,
     fontSize=8.25,
-    leading=11.2,
+    leading=11.6,
     leftIndent=0,
-    spaceAfter=5,
+    spaceAfter=7,
 )
 
 
@@ -142,9 +142,11 @@ def dated_entry(title, date, subtitle=None, detail=None):
 
 
 def pub(authors, title, venue, year, url, award=None):
-    award_text = f' <font color="#9A6811"><b>{award}</b></font>' if award else ""
+    award_text = f' &nbsp; <font color="#9A6811"><b>{award}</b></font>' if award else ""
     return Paragraph(
-        f'{authors} "<b>{title}</b>." <i>{venue}</i>, {year}.{award_text} '
+        f'<b>{title}</b><br/>'
+        f'{authors}<br/>'
+        f'<i>{venue}</i>, {year}{award_text} &nbsp; '
         f'<link href="{url}" color="#286A9B">[Paper]</link>',
         publication_style,
     )
