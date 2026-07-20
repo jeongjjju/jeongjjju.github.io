@@ -1,5 +1,5 @@
 (function () {
-  var storageKey = "jj-portfolio-theme";
+  var storageKey = "jj-portfolio-theme-v2";
   var book = document.querySelector(".book");
   var toggle = document.querySelector(".theme-toggle");
 
@@ -14,7 +14,7 @@
   }
 
   var savedTheme = localStorage.getItem(storageKey);
-  var initialTheme = savedTheme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  var initialTheme = savedTheme || "dark";
   applyTheme(initialTheme);
 
   if (window.matchMedia("(max-width: 600px)").matches) {
