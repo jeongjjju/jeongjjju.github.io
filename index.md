@@ -79,7 +79,7 @@ title: Jeongju Park
 
 <div class="publication-list">
   <article class="publication-item">
-    <img class="publication-teaser" src="/assets/img/publications/when-fingers-become-tools.png" alt="When Fingers Become Tools teaser image" loading="lazy">
+    <img class="publication-teaser" src="/assets/img/publications/when-fingers-become-tools.gif" alt="When Fingers Become Tools teaser animation" loading="lazy">
     <div class="publication-copy">
       <h3>When Fingers Become Tools: Rendering Virtual Tool Inertia with a Finger-Mounted Extending Rod</h3>
       <p class="publication-authors">Kang, S., Kim, G., Gim, B., <strong>Park, J.</strong>, Um, J., Shin, S., Park, C., and Kim, S.</p>
