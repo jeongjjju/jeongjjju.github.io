@@ -254,6 +254,33 @@ html {
   margin-top: 0.08rem;
 }
 
+.earlier-awards {
+  margin-top: 1rem;
+}
+
+.earlier-awards > summary {
+  color: #286a9b;
+  cursor: pointer;
+  display: list-item;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+.earlier-awards > summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.earlier-awards[open] > summary {
+  margin-bottom: 0.75rem;
+}
+
+.book.theme-dark .earlier-awards > summary {
+  color: #9dccf3;
+}
+
 .theme-toggle {
   align-items: center;
   background: rgba(90, 104, 118, 0.12);

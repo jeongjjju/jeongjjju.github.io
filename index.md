@@ -59,6 +59,10 @@ title: Jeongju Park
       <li><span>Demo Honorable Mention · UIST<small>AttraCar</small></span><time>2025</time></li>
       <li><span>Best Demo · IEEE ISMAR<small>AttraCar</small></span><time>2025</time></li>
       <li><span>Best Paper (Top 1%) · CHI<small>TelePulse</small></span><time>2025</time></li>
+    </ul>
+    <details class="earlier-awards">
+      <summary>Earlier awards (before 2025)</summary>
+      <ul class="honors-list">
       <li><span>Outstanding Student Paper · IEIE<small>Finger Language Translation Device</small></span><time>Jul. 2022</time></li>
       <li><span>Full Tuition Scholarship · CNU</span><time>2017–2023</time></li>
       <li><span>Capstone Design Award</span><time>Dec. 2021</time></li>
@@ -68,7 +72,8 @@ title: Jeongju Park
       <li><span>Crowdfunding Commercialization Award</span><time>Jun. 2020</time></li>
       <li><span>Student Start-up Team 300</span><time>Aug. 2020</time></li>
       <li><span>Creative Idea Contest Award</span><time>Feb. 2020</time></li>
-    </ul>
+      </ul>
+    </details>
   </div>
 </section>
 
