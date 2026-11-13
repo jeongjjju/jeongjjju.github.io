@@ -258,19 +258,54 @@ html {
   margin-top: 1rem;
 }
 
-.earlier-awards > summary {
+.markdown-section .earlier-awards > summary {
+  align-items: center;
+  background: #eef5fa;
+  border: 1px solid #c7dce9;
+  border-radius: 8px;
   color: #286a9b;
   cursor: pointer;
-  display: list-item;
+  display: flex;
   font-size: 1.3rem;
   font-weight: 600;
-  padding: 0.5rem 0;
+  gap: 1rem;
+  justify-content: space-between;
+  list-style: none;
+  min-height: 44px;
+  padding: 0.8rem 1.2rem;
+  user-select: none;
 }
 
-.earlier-awards > summary:focus-visible {
+.markdown-section .earlier-awards > summary * {
+  cursor: pointer;
+}
+
+.earlier-awards > summary::-webkit-details-marker {
+  display: none;
+}
+
+.markdown-section .earlier-awards > summary:hover {
+  background: #deedf7;
+  border-color: #8cb8d3;
+}
+
+.markdown-section .earlier-awards > summary:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
-  border-radius: 3px;
+}
+
+.awards-chevron {
+  border-bottom: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  flex: 0 0 8px;
+  height: 8px;
+  margin: -4px 2px 0 0;
+  transform: rotate(45deg);
+}
+
+.earlier-awards[open] .awards-chevron {
+  margin-top: 4px;
+  transform: rotate(225deg);
 }
 
 .earlier-awards[open] > summary {
@@ -278,7 +313,14 @@ html {
 }
 
 .book.theme-dark .earlier-awards > summary {
+  background: #293744;
+  border-color: #465d70;
   color: #9dccf3;
+}
+
+.book.theme-dark .earlier-awards > summary:hover {
+  background: #344b5e;
+  border-color: #80b3d5;
 }
 
 .theme-toggle {

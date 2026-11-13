@@ -61,7 +61,7 @@ title: Jeongju Park
       <li><span>Best Paper (Top 1%) · CHI<small>TelePulse</small></span><time>2025</time></li>
     </ul>
     <details class="earlier-awards">
-      <summary>Earlier awards (before 2025)</summary>
+      <summary><span>Undergraduate awards <span class="awards-count">(9)</span></span><span class="awards-chevron" aria-hidden="true"></span></summary>
       <ul class="honors-list">
       <li><span>Outstanding Student Paper · IEIE<small>Finger Language Translation Device</small></span><time>Jul. 2022</time></li>
       <li><span>Full Tuition Scholarship · CNU</span><time>2017–2023</time></li>
