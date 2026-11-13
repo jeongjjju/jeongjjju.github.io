@@ -70,7 +70,7 @@ section_style = ParagraphStyle(
     fontSize=12,
     leading=15,
     textColor=BLUE,
-    spaceBefore=7,
+    spaceBefore=5,
     spaceAfter=4,
     keepWithNext=True,
 )
@@ -92,7 +92,7 @@ publication_style = ParagraphStyle(
     "Publication",
     parent=body,
     fontSize=8.25,
-    leading=11.6,
+    leading=11.3,
     leftIndent=0,
     spaceAfter=3,
 )
@@ -112,9 +112,8 @@ def footer(canvas, doc):
 
 def section(title):
     return [
-        Spacer(1, 2),
         Paragraph(title, section_style),
-        HRFlowable(width="100%", thickness=0.6, color=LIGHT, spaceAfter=5),
+        HRFlowable(width="100%", thickness=0.6, color=LIGHT, spaceAfter=3),
     ]
 
 
@@ -220,7 +219,7 @@ story.append(dated_entry("Graduate Researcher, Human-Centered Intelligent System
 story.append(dated_entry("Research Intern, Human-Centered Intelligent Systems Lab", "Sep. 2023 - Feb. 2024", "GIST, Gwangju, Republic of Korea"))
 story.append(dated_entry("Undergraduate Researcher, Visual Information Processing & System Lab", "Sep. 2021 - Feb. 2023", "Chonnam National University, Gwangju, Republic of Korea"))
 
-story.extend(section("Publications"))
+story.extend(section("First-author Publications (2)"))
 story.append(pub(
     "<b>J. Park</b>, S. Kang, K. Ko, G. Kim, S. Shin, Y. Kang, W. Matusik, D. Rus, and S. Kim,",
     "MagToTheFuture: Transforming Passive Objects into Circuit-Free Haptic Devices via Magnetic Fields",
@@ -228,6 +227,15 @@ story.append(pub(
     "2026",
     "https://doi.org/10.1145/3830398.3830652",
 ))
+story.append(pub(
+    "<b>J. Park</b>, S. Shin, S. Kang, G. Kim, and S. Kim,",
+    "Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields",
+    "CHI Conference Extended Abstracts",
+    "2025",
+    "https://doi.org/10.1145/3706599.3720242",
+))
+
+story.extend(section("Co-authored Publications (13)"))
 story.append(pub(
     "S. Kang, G. Kim, S. Shin, <b>J. Park</b>, J. Um, D. Rus, and S. Kim,",
     "Inertia in Your Hand: Rendering Virtual Tool Dynamics via In-Hand Cutaneous Deformation",
@@ -286,13 +294,6 @@ story.append(pub(
     "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
     "2025",
     "https://doi.org/10.1145/3749473",
-))
-story.append(pub(
-    "<b>J. Park</b>, S. Shin, S. Kang, G. Kim, and S. Kim,",
-    "Magneto: Enabling Multimodal Haptic Feedback on Paper through Magnetic Fields",
-    "CHI Conference Extended Abstracts",
-    "2025",
-    "https://doi.org/10.1145/3706599.3720242",
 ))
 story.append(pub(
     "S. Hwang, S. Kang, J. Oh, <b>J. Park</b>, S. Shin, Y. Luo, J. DelPreto, W. Matusik, D. Rus, and S. Kim,",
