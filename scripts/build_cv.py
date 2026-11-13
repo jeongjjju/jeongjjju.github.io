@@ -9,6 +9,7 @@ from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
     HRFlowable,
+    KeepTogether,
     PageTemplate,
     Paragraph,
     Spacer,
@@ -71,6 +72,7 @@ section_style = ParagraphStyle(
     textColor=BLUE,
     spaceBefore=7,
     spaceAfter=4,
+    keepWithNext=True,
 )
 item_title = ParagraphStyle(
     "ItemTitle",
@@ -92,7 +94,7 @@ publication_style = ParagraphStyle(
     fontSize=8.25,
     leading=11.6,
     leftIndent=0,
-    spaceAfter=7,
+    spaceAfter=3,
 )
 
 
@@ -134,22 +136,22 @@ def dated_entry(title, date, subtitle=None, detail=None):
                 ("LEFTPADDING", (0, 0), (-1, -1), 0),
                 ("RIGHTPADDING", (0, 0), (-1, -1), 0),
                 ("TOPPADDING", (0, 0), (-1, -1), 0),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
             ]
         )
     )
     return table
 
 
-def pub(authors, title, venue, year, url, award=None):
+def pub(authors, title, venue, year, url, award=None, link_label="Paper"):
     award_text = f'<br/><font color="#9A6811"><b>Awards:</b> {award}</font>' if award else ""
-    return Paragraph(
+    return KeepTogether([Paragraph(
         f'<b>{title}</b><br/>'
         f'{authors}<br/>'
         f'<i>{venue}</i>, {year} &nbsp; '
-        f'<link href="{url}" color="#286A9B">[Paper]</link>{award_text}',
+        f'<link href="{url}" color="#286A9B">[{link_label}]</link>{award_text}',
         publication_style,
-    )
+    )])
 
 
 story = []
@@ -219,6 +221,36 @@ story.append(dated_entry("Research Intern, Human-Centered Intelligent Systems La
 story.append(dated_entry("Undergraduate Researcher, Visual Information Processing & System Lab", "Sep. 2021 - Feb. 2023", "Chonnam National University, Gwangju, Republic of Korea"))
 
 story.extend(section("Publications"))
+story.append(pub(
+    "<b>J. Park</b>, S. Kang, K. Ko, G. Kim, S. Shin, Y. Kang, W. Matusik, D. Rus, and S. Kim,",
+    "MagToTheFuture: Transforming Passive Objects into Circuit-Free Haptic Devices via Magnetic Fields",
+    "ACM Symposium on User Interface Software and Technology (UIST)",
+    "2026",
+    "https://doi.org/10.1145/3830398.3830652",
+))
+story.append(pub(
+    "S. Kang, G. Kim, S. Shin, <b>J. Park</b>, J. Um, D. Rus, and S. Kim,",
+    "Inertia in Your Hand: Rendering Virtual Tool Dynamics via In-Hand Cutaneous Deformation",
+    "ACM Symposium on User Interface Software and Technology (UIST)",
+    "2026",
+    "https://doi.org/10.1145/3830398.3830565",
+))
+story.append(pub(
+    "E. Kim, S. Shin, S. Kang, S. Jang, <b>J. Park</b>, J. Um, and S. Kim,",
+    "Surf-Roll: Modulating Perceived Slipperiness and Stickiness through Finger-Surface Relative Motion",
+    "ACM Symposium on User Interface Software and Technology Adjunct (UIST Adjunct)",
+    "2026",
+    "https://programs.sigchi.org/uist/2026/program/content/275904",
+    "People's Choice (ACM UIST 2026)",
+    link_label="Conference details",
+))
+story.append(pub(
+    "S. Jang, S. Kang, J. Um, <b>J. Park</b>, and S. Kim,",
+    "Contextual Blocking Entities: Transformation of Guardian Boundaries in Virtual Reality",
+    "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+    "2026",
+    "https://doi.org/10.1109/TVCG.2026.3747447",
+))
 story.append(pub(
     "S. Kang, G. Kim, B. Gim, <b>J. Park</b>, J. Um, S. Shin, C. Park, and S. Kim,",
     "When Fingers Become Tools: Rendering Virtual Tool Inertia with a Finger-Mounted Extending Rod",
@@ -302,6 +334,7 @@ story.append(pub(
 
 story.extend(section("Honors & Awards"))
 awards = [
+    ("People's Choice, ACM UIST", "2026", "Surf-Roll"),
     ("Best Demonstration Award, IEEE ISMAR", "2025", "AttraCar"),
     ("People's Choice Best Demo Award, ACM UIST", "2025", "AttraCar"),
     ("Demo Honorable Mention Award, ACM UIST", "2025", "AttraCar"),
