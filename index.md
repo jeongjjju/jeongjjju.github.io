@@ -54,6 +54,7 @@ title: Jeongju Park
     <span id="honors" class="section-anchor"></span>
     <h2>Honors &amp; Awards</h2>
     <ul class="honors-list">
+      <li><span>People's Choice · UIST<small>Surf-Roll</small></span><time>2026</time></li>
       <li><span>People's Choice Best Demo · UIST<small>AttraCar</small></span><time>2025</time></li>
       <li><span>Demo Honorable Mention · UIST<small>AttraCar</small></span><time>2025</time></li>
       <li><span>Best Demo · IEEE ISMAR<small>AttraCar</small></span><time>2025</time></li>
@@ -78,6 +79,46 @@ title: Jeongju Park
 ## Publications
 
 <div class="publication-list">
+  <article class="publication-item" id="magtothefuture">
+    <img class="publication-teaser" src="/assets/img/publications/magtothefuture.gif" alt="MagToTheFuture teaser" loading="lazy">
+    <div class="publication-copy">
+      <h3>MagToTheFuture: Transforming Passive Objects into Circuit-Free Haptic Devices via Magnetic Fields</h3>
+      <p class="publication-authors"><strong>Park, J.</strong>, Kang, S., Ko, K., Kim, G., Shin, S., Kang, Y., Matusik, W., Rus, D., and Kim, S.</p>
+      <p class="publication-venue"><strong>UIST 2026</strong> · ACM Symposium on User Interface Software and Technology</p>
+      <p class="publication-links"><a href="https://doi.org/10.1145/3830398.3830652">Paper</a></p>
+    </div>
+  </article>
+
+  <article class="publication-item" id="inertia-in-your-hand">
+    <img class="publication-teaser" src="/assets/img/publications/inertia-in-your-hand.gif" alt="Inertia in Your Hand teaser" loading="lazy">
+    <div class="publication-copy">
+      <h3>Inertia in Your Hand: Rendering Virtual Tool Dynamics via In-Hand Cutaneous Deformation</h3>
+      <p class="publication-authors">Kang, S., Kim, G., Shin, S., <strong>Park, J.</strong>, Um, J., Rus, D., and Kim, S.</p>
+      <p class="publication-venue"><strong>UIST 2026</strong> · ACM Symposium on User Interface Software and Technology</p>
+      <p class="publication-links"><a href="https://doi.org/10.1145/3830398.3830565">Paper</a></p>
+    </div>
+  </article>
+
+  <article class="publication-item" id="surf-roll">
+    <img class="publication-teaser" src="/assets/img/publications/surf-roll.png" alt="Surf-Roll teaser" loading="lazy">
+    <div class="publication-copy">
+      <h3>Surf-Roll: Modulating Perceived Slipperiness and Stickiness through Finger–Surface Relative Motion</h3>
+      <p class="publication-authors">Kim, E., Shin, S., Kang, S., Jang, S., <strong>Park, J.</strong>, Um, J., and Kim, S.</p>
+      <p class="publication-venue"><strong>UIST Adjunct 2026</strong> · ACM Symposium on User Interface Software and Technology Adjunct · <span class="publication-award">People's Choice 🏆</span></p>
+      <p class="publication-links"><a href="https://programs.sigchi.org/uist/2026/program/content/275904">Conference details</a></p>
+    </div>
+  </article>
+
+  <article class="publication-item" id="contextual-blocking-entities">
+    <img class="publication-teaser" src="/assets/img/publications/contextual-blocking-entities.gif" alt="Contextual Blocking Entities teaser" loading="lazy">
+    <div class="publication-copy">
+      <h3>Contextual Blocking Entities: Transformation of Guardian Boundaries in Virtual Reality</h3>
+      <p class="publication-authors">Jang, S., Kang, S., Um, J., <strong>Park, J.</strong>, and Kim, S.</p>
+      <p class="publication-venue"><strong>IEEE TVCG 2026</strong> · IEEE Transactions on Visualization and Computer Graphics</p>
+      <p class="publication-links"><a href="https://doi.org/10.1109/TVCG.2026.3747447">Paper</a></p>
+    </div>
+  </article>
+
   <article class="publication-item">
     <img class="publication-teaser" src="/assets/img/publications/when-fingers-become-tools.gif" alt="When Fingers Become Tools teaser animation" loading="lazy">
     <div class="publication-copy">
@@ -192,4 +233,4 @@ title: Jeongju Park
 
 ---
 
-Last updated: July 2026
+Last updated: November 2026
