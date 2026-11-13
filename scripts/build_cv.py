@@ -241,7 +241,7 @@ story.append(pub(
     "ACM Symposium on User Interface Software and Technology Adjunct (UIST Adjunct)",
     "2026",
     "https://programs.sigchi.org/uist/2026/program/content/275904",
-    "People's Choice (ACM UIST 2026)",
+    "People's Choice Best Poster (ACM UIST 2026)",
     link_label="Conference details",
 ))
 story.append(pub(
@@ -334,7 +334,7 @@ story.append(pub(
 
 story.extend(section("Honors & Awards"))
 awards = [
-    ("People's Choice, ACM UIST", "2026", "Surf-Roll"),
+    ("People's Choice Best Poster, ACM UIST", "2026", "Surf-Roll"),
     ("Best Demonstration Award, IEEE ISMAR", "2025", "AttraCar"),
     ("People's Choice Best Demo Award, ACM UIST", "2025", "AttraCar"),
     ("Demo Honorable Mention Award, ACM UIST", "2025", "AttraCar"),

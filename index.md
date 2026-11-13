@@ -54,7 +54,7 @@ title: Jeongju Park
     <span id="honors" class="section-anchor"></span>
     <h2>Honors &amp; Awards</h2>
     <ul class="honors-list">
-      <li><span>People's Choice · UIST<small>Surf-Roll</small></span><time>2026</time></li>
+      <li><span>People's Choice Best Poster · UIST<small>Surf-Roll</small></span><time>2026</time></li>
       <li><span>People's Choice Best Demo · UIST<small>AttraCar</small></span><time>2025</time></li>
       <li><span>Demo Honorable Mention · UIST<small>AttraCar</small></span><time>2025</time></li>
       <li><span>Best Demo · IEEE ISMAR<small>AttraCar</small></span><time>2025</time></li>
@@ -104,7 +104,7 @@ title: Jeongju Park
     <div class="publication-copy">
       <h3>Surf-Roll: Modulating Perceived Slipperiness and Stickiness through Finger–Surface Relative Motion</h3>
       <p class="publication-authors">Kim, E., Shin, S., Kang, S., Jang, S., <strong>Park, J.</strong>, Um, J., and Kim, S.</p>
-      <p class="publication-venue"><strong>UIST Adjunct 2026</strong> · ACM Symposium on User Interface Software and Technology Adjunct · <span class="publication-award">People's Choice 🏆</span></p>
+      <p class="publication-venue"><strong>UIST Adjunct 2026</strong> · ACM Symposium on User Interface Software and Technology Adjunct · <span class="publication-award">People's Choice Best Poster 🏆</span></p>
       <p class="publication-links"><a href="https://programs.sigchi.org/uist/2026/program/content/275904">Conference details</a></p>
     </div>
   </article>
